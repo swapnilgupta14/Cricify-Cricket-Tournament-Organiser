@@ -34,17 +34,16 @@ const Navbar = () => {
               href="#tournaments"
               className="transition duration-300 transform hover:scale-110 hover:text-primary font-semibold text-shadow-lg"
             >
-              Matches
+              Fixtures
             </a>
             <a
               href="#contact"
-              className="transition duration-300 transform hover:scale-110 hover:text-primary font-semibold text-shadow-lg"
+              className="transition bg-white text-accent px-3 rounded-3xl duration-300 transform hover:scale-102 hover:text-primary font-semibold text-shadow-lg"
             >
-              Tournaments
+              <span className="text-2xl">+ {" "}</span>New Tournaments
             </a>
 
-            {/* Dropdown Button */}
-            <div className="relative">
+            {/* <div className="relative">
               <button
                 onClick={() => setDropdownOpen(!dropdownOpen)}
                 className="hover: transition duration-300 transform hover:scale-105 hover:shadow-lg focus:outline-none"
@@ -52,7 +51,6 @@ const Navbar = () => {
                 More
               </button>
 
-              {/* Dropdown Menu */}
               {dropdownOpen && (
                 <div className="absolute right-0 mt-2 w-48 bg-white text-gray-700 shadow-lg rounded-lg overflow-hidden animate-fadeIn">
                   <a
@@ -75,7 +73,7 @@ const Navbar = () => {
                   </a>
                 </div>
               )}
-            </div>
+            </div> */}
           </div>
 
           <div className="md:hidden flex items-center">
