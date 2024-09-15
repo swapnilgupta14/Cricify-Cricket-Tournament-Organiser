@@ -13,7 +13,7 @@ const Navbar = () => {
               href="#"
               className="text-3xl font-bold text-white tracking-wide hover:text-gray-100 transition duration-300"
             >
-              <img className="h-12 w-40" src="/Logo.png" alt="Logo" />
+              <img className="h-10 w-36" src="/Logo.png" alt="Logo" />
             </a>
           </div>
 

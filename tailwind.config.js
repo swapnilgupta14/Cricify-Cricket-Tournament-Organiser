@@ -28,7 +28,7 @@ export default {
         fadeIn: "fadeIn 0.5s ease-in-out",
       },
       backgroundImage: {
-        "dashboard-bg": "url('/public/Background1.jpg')",
+        "dashboard-bg": "url('/Background1.jpg')",
       },
       screens: {
         "sm-custom": { max: "650px" }, 
