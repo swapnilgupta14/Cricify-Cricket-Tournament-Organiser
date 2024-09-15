@@ -38,9 +38,9 @@ const Navbar = () => {
             </a>
             <a
               href="#contact"
-              className="transition bg-white text-accent px-3 rounded-3xl duration-300 transform hover:scale-102 hover:text-primary font-semibold text-shadow-lg"
+              className="transition bg-white text-accent px-3 rounded-3xl duration-300 transform hover:scale-102 hover:text-white hover:bg-accent hover:scale-102 font-semibold text-shadow-lg"
             >
-              <span className="text-2xl">+ {" "}</span>New Tournaments
+              <span className="text-2xl">+ </span>New Tournaments
             </a>
 
             {/* <div className="relative">
