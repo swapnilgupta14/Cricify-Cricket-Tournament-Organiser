@@ -5,11 +5,12 @@ export default {
     extend: {
       colors: {
         background: "#F5F5F5",
-        primaryLight: "#48CFCB",
+        bgSecond: '#eaebf2',
         primary: "#229799",
+        primaryLight: "#48CFCB",
         accent: "#424242",
         textPrimary: "#151515",
-        textSecondary: "#ffffff",
+        textSecondary: "#828282",
         textMuted: "#393939",
         linkColor: "#229799",
         success: "#4caf50",
@@ -25,6 +26,12 @@ export default {
       },
       animation: {
         fadeIn: "fadeIn 0.5s ease-in-out",
+      },
+      backgroundImage: {
+        "dashboard-bg": "url('/public/Background1.jpg')",
+      },
+      screens: {
+        "sm-custom": { max: "650px" }, 
       },
     },
   },
