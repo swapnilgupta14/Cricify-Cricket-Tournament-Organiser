@@ -2,9 +2,9 @@ import { useState, useRef, useEffect } from "react";
 import PropTypes from "prop-types";
 
 const MatchCards = ({ cricketMatches }) => {
-  const cardContainerRef = useRef(null);
-  const [currentIndex, setCurrentIndex] = useState(0);
   const [screenWidth, setScreenWidth] = useState(window.innerWidth);
+  const cardContainerRef = useRef(null);
+  const [currentIndex, setCurrentIndex] = useState(screenWidth < 650 ? 0 : 3);
 
   const updateScreenWidth = () => {
     setScreenWidth(window.innerWidth);
@@ -18,7 +18,8 @@ const MatchCards = ({ cricketMatches }) => {
   }, []);
 
   const slideLeft = () => {
-    const scrollAmount = screenWidth < 650 ? -360 : -350;
+    const scrollAmount =
+      screenWidth < 650 ? -1 * (screenWidth - 0.1 * screenWidth) : -350;
     cardContainerRef.current.scrollBy({
       left: scrollAmount,
       behavior: "smooth",
@@ -27,7 +28,8 @@ const MatchCards = ({ cricketMatches }) => {
   };
 
   const slideRight = () => {
-    const scrollAmount = screenWidth < 650 ? 360 : 350;
+    const scrollAmount =
+      screenWidth < 650 ? screenWidth - 0.1 * screenWidth : 350;
     cardContainerRef.current.scrollBy({
       left: scrollAmount,
       behavior: "smooth",
@@ -72,7 +74,7 @@ const MatchCards = ({ cricketMatches }) => {
           <div className="flex gap-2 justify-center items-center">
             <span>
               <img
-                src="/public/india.webp"
+                src="india.webp"
                 className="h-7 w-7 rounded-full max-w-fit object-cover"
               ></img>
             </span>
@@ -87,7 +89,7 @@ const MatchCards = ({ cricketMatches }) => {
           <div className="flex gap-2 justify-center items-center">
             <span>
               <img
-                src="/public/australia.webp"
+                src="australia.webp"
                 className="h-7 w-7 rounded-full max-w-fit object-cover"
               ></img>
             </span>
