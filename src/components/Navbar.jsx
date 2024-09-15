@@ -5,7 +5,7 @@ const Navbar = () => {
   const [dropdownOpen, setDropdownOpen] = useState(false);
 
   return (
-    <nav className="bg-gradient-to-r from-primary-light to-primary shadow-lg w-[80%] mx-auto mt-3 rounded-3xl fixed left-0 right-0 top-3">
+    <nav className="bg-transparent w-[85%] mx-auto pt-3">
       <div className="container mx-auto px-2 sm:px-4 lg:px-6 py-2">
         <div className="flex justify-between items-center h-10">
           <div className="flex-shrink-0">
@@ -13,61 +13,63 @@ const Navbar = () => {
               href="#"
               className="text-3xl font-bold text-white tracking-wide hover:text-gray-100 transition duration-300"
             >
-              🏏 CricketApp
+              <img className="h-12 w-40" src="/Logo.png" alt="Logo" />
             </a>
           </div>
 
-          <div className="hidden md:flex space-x-8 items-center">
+          <div className="hidden md:flex space-x-8 items-center text-white">
             <a
               href="#home"
-              className="text-white hover:bg-white hover:text-primary px-3 py-2 rounded-lg transition duration-300"
+              className="transition duration-300 transform hover:scale-110 hover:text-primary font-semibold text-shadow-lg"
             >
               Home
             </a>
             <a
               href="#about"
-              className="text-white hover:bg-white hover:text-primary px-3 py-2 rounded-lg transition duration-300"
+              className="transition duration-300 transform hover:scale-110 hover:text-primary font-semibold text-shadow-lg"
             >
-              About
+              Live Scores
             </a>
             <a
               href="#tournaments"
-              className="text-white hover:bg-white hover:text-primary px-3 py-2 rounded-lg transition duration-300"
+              className="transition duration-300 transform hover:scale-110 hover:text-primary font-semibold text-shadow-lg"
             >
-              Tournaments
+              Matches
             </a>
             <a
               href="#contact"
-              className="text-white hover:bg-white hover:text-primary px-3 py-2 rounded-lg transition duration-300"
+              className="transition duration-300 transform hover:scale-110 hover:text-primary font-semibold text-shadow-lg"
             >
-              Contact
+              Tournaments
             </a>
 
+            {/* Dropdown Button */}
             <div className="relative">
               <button
                 onClick={() => setDropdownOpen(!dropdownOpen)}
-                className="text-white hover:bg-white hover:text-primary px-3 py-2 rounded-lg transition duration-300 focus:outline-none"
+                className="hover: transition duration-300 transform hover:scale-105 hover:shadow-lg focus:outline-none"
               >
                 More
               </button>
 
+              {/* Dropdown Menu */}
               {dropdownOpen && (
                 <div className="absolute right-0 mt-2 w-48 bg-white text-gray-700 shadow-lg rounded-lg overflow-hidden animate-fadeIn">
                   <a
                     href="#services"
-                    className="block px-4 py-2 hover:bg-primary-light hover:text-white transition duration-300"
+                    className="block px-4 py-2 hover:text-primary-light transition duration-300 transform hover:scale-105"
                   >
                     Services
                   </a>
                   <a
                     href="#blog"
-                    className="block px-4 py-2 hover:bg-primary-light hover:text-white transition duration-300"
+                    className="block px-4 py-2 hover:text-primary-light transition duration-300 transform hover:scale-105"
                   >
                     Blog
                   </a>
                   <a
                     href="#careers"
-                    className="block px-4 py-2 hover:bg-primary-light hover:text-white transition duration-300"
+                    className="block px-4 py-2 hover:text-primary-light transition duration-300 transform hover:scale-105"
                   >
                     Careers
                   </a>
