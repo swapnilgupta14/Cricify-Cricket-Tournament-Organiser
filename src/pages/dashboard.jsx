@@ -10,7 +10,7 @@ const Dashboard = () => {
         <MatchCards cricketMatches={cricketMatches} />
       </div>
 
-      <div className="bg-background flex-1 w-[100%] rounded-t-3xl"> Hiii </div>
+      <div className="bg-background flex-1 w-[100%] rounded-t-3xl">Hiii</div>
     </div>
   );
 };

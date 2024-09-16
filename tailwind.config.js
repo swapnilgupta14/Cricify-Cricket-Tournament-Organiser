@@ -29,7 +29,7 @@ export default {
         },
       },
       animation: {
-        fadeIn: "fadeIn 0.2s ease-in-out forwards",
+        fadeIn: "fadeIn 0.s ease-in-out forwards",
         fadeOut: "fadeOut 0.3s ease-in-out forwards",
       },
       backgroundImage: {
@@ -38,6 +38,10 @@ export default {
       },
       screens: {
         "sm-custom": { max: "650px" },
+      },
+      boxShadow: {
+        "smooth-red": "0 8px 20px rgba(255, 0, 0, 0.4)",
+        "black-shadow": "0 8px 20px rgba(0, 0, 0, 0.4)",
       },
     },
   },

@@ -37,18 +37,11 @@ const Navbar = () => {
               Fixtures
             </a>
 
-            <div>
-              <Link to="/tournament">
-                <div>
-                  <a
-                    href="#"
-                    className="bg-white text-accent px-3 py-2 rounded-3xl transition duration-200 transform hover:scale-102 hover:text-white hover:bg-accent font-semibold text-shadow-lg"
-                  >
-                    <span className="text-2xl">+ </span>New Tournaments
-                  </a>
-                </div>
-              </Link>
-            </div>
+            <Link to="/tournament">
+              <div className="bg-white text-accent px-3 py-1 rounded-3xl transition duration-200 transform hover:scale-102 hover:text-white hover:bg-accent font-semibold text-shadow-lg">
+                <span className="text-2xl">+ </span>New Tournaments
+              </div>
+            </Link>
           </div>
 
           <div className="md:hidden flex items-center">
@@ -129,13 +122,8 @@ const Navbar = () => {
               Fixtures
             </a>
             <Link to="/tournament">
-              <div>
-                <a
-                  href="#"
-                  className="bg-white px-4 py-3 text-2xl font-bold text-accent rounded-3xl transition duration-200 transform hover:scale-102 hover:text-white hover:bg-accent text-shadow-lg"
-                >
-                  <span className="text-2xl">+ </span>New Tournaments
-                </a>
+              <div className="bg-white px-4 py-3 text-2xl font-bold text-accent rounded-3xl transition duration-200 transform hover:scale-102 hover:text-white hover:bg-accent text-shadow-lg">
+                <span className="text-2xl">+ </span>New Tournaments
               </div>
             </Link>
           </div>

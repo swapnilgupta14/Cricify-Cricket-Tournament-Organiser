@@ -29,15 +29,15 @@ const Tournament = () => {
       content: (
         <>
           <div className="flex flex-col items-start justify-start sm-custom:items-start">
-            <h2 className="text-3xl sm-custom:text-[1.5rem] font-bold text-gray-800 text-start">
-              Organsize a Cricket Tournament
+            <h2 className="text-xl sm-custom:text-[1.5rem] font-bold text-gray-800 text-start">
+              Instructions -
             </h2>
-            <p className="text-white mt-4 text-lg leading-relaxed text-start">
+            <p className="text-gray-600 mt-4 text-lg leading-relaxed text-start">
               Excited to host your very own cricket tournament? Select formats,
               manage teams, define rules, create detailed schedules — get it all
               done in one place with our tournament organizer.
             </p>
-            <p className="text-white mt-5 text-lg leading-relaxed text-start">
+            <p className="text-gray-600 mt-5 text-lg leading-relaxed text-start">
               Ready to dive in? Let’s begin by setting up the foundational
               details of your tournament. Just follow the guided steps to
               organise the tournament.
@@ -60,9 +60,10 @@ const Tournament = () => {
       title: "Select Match Format",
       content: (
         <>
-          <h2 className="text-2xl sm-custom:text-[1.5rem] font-bold text-blue-600">
-            Select Tournament Format
+          <h2 className="text-xl sm-custom:text-[1.5rem] font-bold text-gray-800 text-start">
+            Select Tournament Format -
           </h2>
+
           <p className="text-white mt-2 mb-4">
             Choose the format that suits your tournament. Learn more about
             formats by hovering over the options.
@@ -95,7 +96,9 @@ const Tournament = () => {
       title: "Add Team(s) Details",
       content: (
         <>
-          <h2 className="text-2xl font-bold text-blue-600">Add Team Details</h2>
+          <h2 className="text-xl sm-custom:text-[1.5rem] font-bold text-gray-800 text-start">
+            Add Team Details -
+          </h2>
           <p className="text-white mt-2 mb-4">
             Provide team names and captains. You can add up to 16 teams.
           </p>
@@ -119,7 +122,9 @@ const Tournament = () => {
       title: "Set Match Rules",
       content: (
         <>
-          <h2 className="text-2xl font-bold text-blue-600">Match Rules</h2>
+          <h2 className="text-xl sm-custom:text-[1.5rem] font-bold text-gray-800 text-start">
+            Match Rules -
+          </h2>
           <p className="text-white mt-2 mb-4">
             Set basic match rules like overs, umpire details, and ball type.
           </p>
@@ -140,7 +145,9 @@ const Tournament = () => {
       title: "Schedule Matches",
       content: (
         <>
-          <h2 className="text-2xl font-bold text-blue-600">Schedule Matches</h2>
+          <h2 className="text-xl sm-custom:text-[1.5rem] font-bold text-gray-800 text-start">
+            Schedule Matches -
+          </h2>
           <p className="text-white mt-2 mb-4">
             Select the date and time for each match. You can add multiple
             matches here.
@@ -159,9 +166,10 @@ const Tournament = () => {
       title: "Review and Submit",
       content: (
         <>
-          <h2 className="text-2xl font-bold text-blue-600">
-            Review Your Tournament Details
+          <h2 className="text-xl sm-custom:text-[1.5rem] font-bold text-gray-800 text-start">
+            Review Your Tournament Details -
           </h2>
+
           <p className="text-white mt-2 leading-relaxed">
             All the details will be displayed here for final review.
             Double-check your tournament info before submitting.
@@ -179,7 +187,7 @@ const Tournament = () => {
 
   return (
     <div className="h-[100vh] w-screen flex justify-center items-center bg-dashboard-bg bg-cover bg-center">
-      <div className="bg-white overflow-hidden bg-opacity-15 backdrop-filter backdrop-blur-lg rounded-lg shadow-lg h-[95%] w-[80%] sm-custom:w-[95%] sm-custom:h-[98%] flex flex-col justify-start items-center border border-white/40">
+      <div className="bg-white overflow-hidden bg-opacity-30 backdrop-filter backdrop-blur-lg rounded-lg shadow-black-shadow h-[95%] w-[80%] sm-custom:w-[95%] sm-custom:h-[98%] flex flex-col justify-start items-center border border-white/40">
         <div className="flex w-[100%] px-10 m-6 sm-custom:justify-center sm-custom:items-center">
           <h1
             className="text-gray-200 text-lg font-semibold tracking-wide
@@ -193,7 +201,7 @@ const Tournament = () => {
             </span>
           </h1>
         </div>
-        <div className="flex justify-center my-[3rem] sm-custom:my-[1rem] mx-[5rem] sm-custom:mx-[1rem]">
+        <div className="flex justify-center my-[1.5rem] sm-custom:my-[1rem] mx-[5rem] sm-custom:mx-[1rem]">
           {steps.map((step, index) => (
             <div
               key={index}
@@ -203,7 +211,7 @@ const Tournament = () => {
               onClick={() => handleStepClick(index)}
             >
               <div
-                className={`w-16 h-16 sm-custom:h-8 sm-custom:w-8 mx-auto sm-custom:mx-3 rounded-full flex items-center justify-center cursor-pointer text-lg
+                className={`w-16 h-16 sm-custom:h-8 sm-custom:w-8 mx-auto sm-custom:mx-3 rounded-full flex items-center justify-center cursor-pointer text-lg shadow-black-shadow
                   ${
                     index < currentStep || completedSteps.includes(index)
                       ? "bg-blue-600 text-white"
@@ -238,8 +246,8 @@ const Tournament = () => {
         </div>
 
         <div
-          className="bg-black overflow-hidden bg-opacity-15 backdrop-filter backdrop-blur-lg 
-        rounded-lg shadow-lg w-[85%] justify-start p-6 overflow-y-auto no-scrollbar"
+          className="bg-white overflow-hidden bg-opacity-80 backdrop-filter backdrop-blur-lg 
+        rounded-xl w-[85%] justify-start p-6 overflow-y-auto no-scrollbar shadow-black-shadow"
         >
           {steps[currentStep].content}
 
