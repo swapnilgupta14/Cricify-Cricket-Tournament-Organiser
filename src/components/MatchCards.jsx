@@ -2,8 +2,8 @@ import { useState, useRef, useEffect } from "react";
 import PropTypes from "prop-types";
 
 const MatchCards = ({ cricketMatches }) => {
-  const [screenWidth, setScreenWidth] = useState(window.innerWidth);
   const cardContainerRef = useRef(null);
+  const [screenWidth, setScreenWidth] = useState(window.innerWidth);
   const [currentIndex, setCurrentIndex] = useState(screenWidth < 650 ? 0 : 3);
 
   const updateScreenWidth = () => {
@@ -144,7 +144,7 @@ const MatchCards = ({ cricketMatches }) => {
         )}
       </div>
 
-      <div className="flex justify-center mt-4 space-x-2">
+      <div className="flex justify-center mt-6 space-x-2">
         {cricketMatches.map((_, index) => (
           <span
             key={index}

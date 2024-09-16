@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -36,44 +37,19 @@ const Navbar = () => {
             >
               Fixtures
             </a>
-            <a
-              href="#contact"
-              className="transition bg-white text-accent px-3 rounded-3xl duration-300 transform hover:scale-102 hover:text-white hover:bg-accent hover:scale-102 font-semibold text-shadow-lg"
-            >
-              <span className="text-2xl">+ </span>New Tournaments
-            </a>
 
-            {/* <div className="relative">
-              <button
-                onClick={() => setDropdownOpen(!dropdownOpen)}
-                className="hover: transition duration-300 transform hover:scale-105 hover:shadow-lg focus:outline-none"
-              >
-                More
-              </button>
-
-              {dropdownOpen && (
-                <div className="absolute right-0 mt-2 w-48 bg-white text-gray-700 shadow-lg rounded-lg overflow-hidden animate-fadeIn">
+            <div>
+              <Link to="/tournament">
+                <div>
                   <a
-                    href="#services"
-                    className="block px-4 py-2 hover:text-primary-light transition duration-300 transform hover:scale-105"
+                    href="#"
+                    className="bg-white text-accent px-3 py-2 rounded-3xl transition duration-200 transform hover:scale-102 hover:text-white hover:bg-accent font-semibold text-shadow-lg"
                   >
-                    Services
-                  </a>
-                  <a
-                    href="#blog"
-                    className="block px-4 py-2 hover:text-primary-light transition duration-300 transform hover:scale-105"
-                  >
-                    Blog
-                  </a>
-                  <a
-                    href="#careers"
-                    className="block px-4 py-2 hover:text-primary-light transition duration-300 transform hover:scale-105"
-                  >
-                    Careers
+                    <span className="text-2xl">+ </span>New Tournaments
                   </a>
                 </div>
-              )}
-            </div> */}
+              </Link>
+            </div>
           </div>
 
           <div className="md:hidden flex items-center">
