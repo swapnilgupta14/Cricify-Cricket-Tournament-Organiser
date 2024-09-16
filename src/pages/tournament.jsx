@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { FiArrowRight, FiArrowLeft, FiCheckCircle } from "react-icons/fi";
+import { Link } from "react-router-dom";
 
 const Tournament = () => {
   const [currentStep, setCurrentStep] = useState(0);
@@ -24,34 +25,45 @@ const Tournament = () => {
 
   const steps = [
     {
-      title: "Introduction",
+      title: "Instructions",
       content: (
         <>
-          <h2 className="text-3xl sm:text-lg font-bold">
-            Welcome to Tournament Organizer
-          </h2>
-          <p className="text-gray-600 mt-4 text-lg leading-relaxed">
-            Ready to organize your cricket tournament? Follow these simple steps
-            to set up your tournament’s format, teams, rules, and schedule.
-            We’ll guide you through the entire process.
-          </p>
-          <button
-            className="mt-6 px-6 py-3 bg-blue-600 text-white font-semibold rounded-full shadow-lg hover:bg-blue-500 transition-all duration-200"
-            onClick={() => handleNext()}
-          >
-            Lets Start
-          </button>
+          <div className="flex flex-col items-start justify-start sm-custom:items-start">
+            <h2 className="text-3xl sm-custom:text-[1.5rem] font-bold text-gray-800 text-start">
+              Organsize a Cricket Tournament
+            </h2>
+            <p className="text-white mt-4 text-lg leading-relaxed text-start">
+              Excited to host your very own cricket tournament? Select formats,
+              manage teams, define rules, create detailed schedules — get it all
+              done in one place with our tournament organizer.
+            </p>
+            <p className="text-white mt-5 text-lg leading-relaxed text-start">
+              Ready to dive in? Let’s begin by setting up the foundational
+              details of your tournament. Just follow the guided steps to
+              organise the tournament.
+            </p>
+            <div className="flex justify-center items-center w-[100%]">
+              <button
+                className="mt-6 px-6 py-3 bg-blue-600 text-white font-semibold rounded-full shadow-lg hover:bg-blue-500 transition-all duration-200"
+                onClick={() => handleNext()}
+              >
+                <span className="flex justify-center items-center">
+                  Get Started <FiArrowRight className="inline ml-2" />
+                </span>
+              </button>
+            </div>
+          </div>
         </>
       ),
     },
     {
-      title: "Step 1: Select Tournament Format",
+      title: "Select Match Format",
       content: (
         <>
-          <h2 className="text-2xl font-bold text-accent">
+          <h2 className="text-2xl sm-custom:text-[1.5rem] font-bold text-blue-600">
             Select Tournament Format
           </h2>
-          <p className="text-gray-500 mt-2 mb-4">
+          <p className="text-white mt-2 mb-4">
             Choose the format that suits your tournament. Learn more about
             formats by hovering over the options.
           </p>
@@ -80,10 +92,10 @@ const Tournament = () => {
       ),
     },
     {
-      title: "Step 2: Add Team Details",
+      title: "Add Team(s) Details",
       content: (
         <>
-          <h2 className="text-2xl font-bold text-black">Add Team Details</h2>
+          <h2 className="text-2xl font-bold text-blue-600">Add Team Details</h2>
           <p className="text-white mt-2 mb-4">
             Provide team names and captains. You can add up to 16 teams.
           </p>
@@ -104,13 +116,11 @@ const Tournament = () => {
       ),
     },
     {
-      title: "Step 3: Set Match Rules and Regulations",
+      title: "Set Match Rules",
       content: (
         <>
-          <h2 className="text-2xl font-bold text-accent">
-            Match Rules and Regulations
-          </h2>
-          <p className="text-gray-500 mt-2 mb-4">
+          <h2 className="text-2xl font-bold text-blue-600">Match Rules</h2>
+          <p className="text-white mt-2 mb-4">
             Set basic match rules like overs, umpire details, and ball type.
           </p>
           <input
@@ -127,11 +137,11 @@ const Tournament = () => {
       ),
     },
     {
-      title: "Step 4: Schedule Matches",
+      title: "Schedule Matches",
       content: (
         <>
-          <h2 className="text-2xl font-bold text-accent">Schedule Matches</h2>
-          <p className="text-gray-500 mt-2 mb-4">
+          <h2 className="text-2xl font-bold text-blue-600">Schedule Matches</h2>
+          <p className="text-white mt-2 mb-4">
             Select the date and time for each match. You can add multiple
             matches here.
           </p>
@@ -149,10 +159,10 @@ const Tournament = () => {
       title: "Review and Submit",
       content: (
         <>
-          <h2 className="text-2xl font-bold text-accent">
+          <h2 className="text-2xl font-bold text-blue-600">
             Review Your Tournament Details
           </h2>
-          <p className="text-gray-600 mt-2 leading-relaxed">
+          <p className="text-white mt-2 leading-relaxed">
             All the details will be displayed here for final review.
             Double-check your tournament info before submitting.
           </p>
@@ -169,16 +179,21 @@ const Tournament = () => {
 
   return (
     <div className="h-[100vh] w-screen flex justify-center items-center bg-dashboard-bg bg-cover bg-center">
-      <div className="bg-white overflow-hidden bg-opacity-15 backdrop-filter backdrop-blur-lg rounded-lg shadow-lg h-[95%] w-[80%] sm-custom:w-[95%] flex flex-col justify-start items-center border border-white/40">
+      <div className="bg-white overflow-hidden bg-opacity-15 backdrop-filter backdrop-blur-lg rounded-lg shadow-lg h-[95%] w-[80%] sm-custom:w-[95%] sm-custom:h-[98%] flex flex-col justify-start items-center border border-white/40">
         <div className="flex w-[100%] px-10 m-6 sm-custom:justify-center sm-custom:items-center">
           <h1
             className="text-gray-200 text-lg font-semibold tracking-wide
                drop-shadow-lg shadow-white-900 mb- sm-custom:text-lg sm-custom:mb-2"
           >
-            Completing the Following Steps
+            <span className="flex justify-center items-center">
+              <Link to="/" className="flex items-center">
+                <FiArrowLeft className="inline mr-2" />
+              </Link>
+              Complete the Following Steps
+            </span>
           </h1>
         </div>
-        <div className="flex flex-wrap justify-center my-[3rem] sm-custom:my-[1rem] mx-[5rem] sm-custom:mx-[1rem]">
+        <div className="flex justify-center my-[3rem] sm-custom:my-[1rem] mx-[5rem] sm-custom:mx-[1rem]">
           {steps.map((step, index) => (
             <div
               key={index}
@@ -188,13 +203,24 @@ const Tournament = () => {
               onClick={() => handleStepClick(index)}
             >
               <div
-                className={`w-16 h-16 sm-custom:h-10 sm-custom:w-10 mx-auto sm-custom:mx-10 rounded-full flex items-center justify-center cursor-pointer text-lg ${
-                  index < currentStep || completedSteps.includes(index)
-                    ? "bg-blue-600 text-white"
-                    : index === currentStep
-                    ? "bg-gray-300 text-black"
-                    : "bg-gray-300 text-gray-700"
-                }`}
+                className={`w-16 h-16 sm-custom:h-8 sm-custom:w-8 mx-auto sm-custom:mx-3 rounded-full flex items-center justify-center cursor-pointer text-lg
+                  ${
+                    index < currentStep || completedSteps.includes(index)
+                      ? "bg-blue-600 text-white"
+                      : index === currentStep
+                      ? "bg-gray-300 text-blue-600"
+                      : "bg-gray-300 text-gray-700"
+                  }
+                  ${
+                    index > Math.max(...completedSteps, -1) + 1
+                      ? "cursor-not-allowed opacity-50"
+                      : ""
+                  }`}
+                onClick={
+                  index <= Math.max(...completedSteps, -1) + 1
+                    ? () => handleStepClick(index)
+                    : null
+                }
               >
                 {completedSteps.includes(index) ? <FiCheckCircle /> : index + 1}
               </div>
@@ -211,26 +237,31 @@ const Tournament = () => {
           ))}
         </div>
 
-        <div className="w-[85%]">{steps[currentStep].content}</div>
+        <div
+          className="bg-black overflow-hidden bg-opacity-15 backdrop-filter backdrop-blur-lg 
+        rounded-lg shadow-lg w-[85%] justify-start p-6 overflow-y-auto no-scrollbar"
+        >
+          {steps[currentStep].content}
 
-        <div className="mt-6 flex justify-between w-[85%]">
-          {currentStep > 0 && (
-            <button
-              className="px-6 py-3 bg-gray-400 text-white rounded-lg hover:bg-gray-500 transition-all duration-200"
-              onClick={handlePrevious}
-            >
-              <FiArrowLeft className="inline mr-2" /> Previous
-            </button>
-          )}
+          <div className="mt-6 flex justify-end w-[100%] gap-4 text-md">
+            {currentStep > 0 && (
+              <button
+                className="px-3 py-2 bg-black text-white rounded-3xl hover:bg-gray-900 transition-all duration-200"
+                onClick={handlePrevious}
+              >
+                <FiArrowLeft className="inline mr-2" /> Previous
+              </button>
+            )}
 
-          {currentStep !== 0 && currentStep < steps.length - 1 ? (
-            <button
-              className="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-500 transition-all duration-200"
-              onClick={handleNext}
-            >
-              Next <FiArrowRight className="inline ml-2" />
-            </button>
-          ) : null}
+            {currentStep !== 0 && currentStep < steps.length - 1 ? (
+              <button
+                className="px-3 py-2 bg-white text-black rounded-3xl hover:bg-gray-300 transition-all duration-200"
+                onClick={handleNext}
+              >
+                Next <FiArrowRight className="inline ml-2" />
+              </button>
+            ) : null}
+          </div>
         </div>
       </div>
     </div>

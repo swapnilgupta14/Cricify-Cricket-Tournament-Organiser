@@ -76,9 +76,12 @@ const Navbar = () => {
       </div>
 
       {isOpen && (
-        <div className="fixed inset-0 z-50 bg-white/30 backdrop-blur-lg md:hidden h-[95vh]">
-          <div className="flex flex-col justify-center items-center w-full bg-gradient-to-r from-primary-light to-primary p-4 space-y-4">
-            <div className="flex justify-between items-center w-[100%] my-2 mx-10">
+        <div
+          className={`fixed inset-0 z-50 bg-transparent backdrop-blur-xl md:hidden h-[95vh] 
+          ${isOpen ? "animate-fadeIn" : "animate-fadeOut"}`}
+        >
+          <div className="flex flex-col justify-center items-center w-full space-y-4">
+            <div className="flex justify-between items-center w-[100%] my-5 px-10">
               <a
                 href="#"
                 className="text-3xl font-bold text-black tracking-wide hover:text-gray-100 transition duration-300"
@@ -109,19 +112,19 @@ const Navbar = () => {
             </div>
             <a
               href="#home"
-              className="block px-4 py-2 hover:bg-white hover:text-primary transition duration-300"
+              className="block px-4 py-3 text-2xl font-bold text-accent"
             >
               Home
             </a>
             <a
               href="#about"
-              className="block px-4 py-2 hover:bg-white hover:text-primary transition duration-300"
+              className="block px-4 py-3 text-2xl font-bold text-accent"
             >
               Live Scores
             </a>
             <a
               href="#contact"
-              className="block px-4 py-2 hover:bg-white hover:text-primary transition duration-300"
+              className="block px-4 py-3 text-2xl font-bold text-accent"
             >
               Fixtures
             </a>
@@ -129,7 +132,7 @@ const Navbar = () => {
               <div>
                 <a
                   href="#"
-                  className=" text-black transition duration-200 transform hover:scale-102 hover:text-white font-semibold text-shadow-lg"
+                  className="bg-white px-4 py-3 text-2xl font-bold text-accent rounded-3xl transition duration-200 transform hover:scale-102 hover:text-white hover:bg-accent text-shadow-lg"
                 >
                   <span className="text-2xl">+ </span>New Tournaments
                 </a>
