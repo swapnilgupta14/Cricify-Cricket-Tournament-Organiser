@@ -5,7 +5,7 @@ export default {
     extend: {
       colors: {
         background: "#F5F5F5",
-        bgSecond: '#eaebf2',
+        bgSecond: "#eaebf2",
         primary: "#229799",
         primaryLight: "#48CFCB",
         accent: "#424242",
@@ -29,9 +29,10 @@ export default {
       },
       backgroundImage: {
         "dashboard-bg": "url('/Background1.jpg')",
+        "tournament-bg": "url('/Background.jpg')",
       },
       screens: {
-        "sm-custom": { max: "650px" }, 
+        "sm-custom": { max: "650px" },
       },
     },
   },
