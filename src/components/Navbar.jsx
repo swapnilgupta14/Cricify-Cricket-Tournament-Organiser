@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const [dropdownOpen, setDropdownOpen] = useState(false);
 
   return (
     <nav className="bg-transparent w-[85%] mx-auto pt-3">
@@ -77,61 +76,65 @@ const Navbar = () => {
       </div>
 
       {isOpen && (
-        <div className="md:hidden bg-gradient-to-r from-primary-light to-primary">
-          <a
-            href="#home"
-            className="block px-4 py-2 text-white hover:bg-white hover:text-primary transition duration-300"
-          >
-            Home
-          </a>
-          <a
-            href="#about"
-            className="block px-4 py-2 text-white hover:bg-white hover:text-primary transition duration-300"
-          >
-            About
-          </a>
-          <a
-            href="#tournaments"
-            className="block px-4 py-2 text-white hover:bg-white hover:text-primary transition duration-300"
-          >
-            Tournaments
-          </a>
-          <a
-            href="#contact"
-            className="block px-4 py-2 text-white hover:bg-white hover:text-primary transition duration-300"
-          >
-            Contact
-          </a>
-
-          <div className="relative">
-            <button
-              onClick={() => setDropdownOpen(!dropdownOpen)}
-              className="block px-4 py-2 text-white hover:bg-white hover:text-primary transition duration-300 focus:outline-none"
+        <div className="fixed inset-0 z-50 bg-white/30 backdrop-blur-lg md:hidden h-[95vh]">
+          <div className="flex flex-col justify-center items-center w-full bg-gradient-to-r from-primary-light to-primary p-4 space-y-4">
+            <div className="flex justify-between items-center w-[100%] my-2 mx-10">
+              <a
+                href="#"
+                className="text-3xl font-bold text-black tracking-wide hover:text-gray-100 transition duration-300"
+              >
+                <img className="h-10 w-36" src="/Logo.png" alt="Logo" />
+              </a>
+              <button
+                onClick={() => setIsOpen(!isOpen)}
+                className="text-white hover:text-gray-100 focus:outline-none"
+              >
+                <svg
+                  className="w-6 h-6"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
+                    d={
+                      isOpen ? "M6 18L18 6M6 6l12 12" : "M4 6h16M4 12h16m-7 6h7"
+                    }
+                  />
+                </svg>
+              </button>
+            </div>
+            <a
+              href="#home"
+              className="block px-4 py-2 hover:bg-white hover:text-primary transition duration-300"
             >
-              More
-            </button>
-            {dropdownOpen && (
-              <div className="bg-white rounded-lg shadow-lg">
+              Home
+            </a>
+            <a
+              href="#about"
+              className="block px-4 py-2 hover:bg-white hover:text-primary transition duration-300"
+            >
+              Live Scores
+            </a>
+            <a
+              href="#contact"
+              className="block px-4 py-2 hover:bg-white hover:text-primary transition duration-300"
+            >
+              Fixtures
+            </a>
+            <Link to="/tournament">
+              <div>
                 <a
-                  href="#services"
-                  className="block px-4 py-2 text-gray-700 hover:bg-primary-light hover:text-white transition duration-300"
+                  href="#"
+                  className=" text-black transition duration-200 transform hover:scale-102 hover:text-white font-semibold text-shadow-lg"
                 >
-                  Services
-                </a>
-                <a
-                  href="#blog"
-                  className="block px-4 py-2 text-gray-700 hover:bg-primary-light hover:text-white transition duration-300"
-                >
-                  Blog
-                </a>
-                <a
-                  href="#careers"
-                  className="block px-4 py-2 text-gray-700 hover:bg-primary-light hover:text-white transition duration-300"
-                >
-                  Careers
+                  <span className="text-2xl">+ </span>New Tournaments
                 </a>
               </div>
-            )}
+            </Link>
           </div>
         </div>
       )}
