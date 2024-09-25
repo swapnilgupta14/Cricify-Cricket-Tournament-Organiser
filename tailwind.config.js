@@ -35,6 +35,7 @@ export default {
       backgroundImage: {
         "dashboard-bg": "url('/Background1.jpg')",
         "tournament-bg": "url('/Background.jpg')",
+        "series-coverage": "url('/public/series.webp')",
       },
       screens: {
         "sm-custom": { max: "650px" },
@@ -43,7 +44,19 @@ export default {
         "smooth-red": "0 8px 20px rgba(255, 0, 0, 0.4)",
         "black-shadow": "0 8px 20px rgba(0, 0, 0, 0.4)",
       },
+      textShadow: {
+        default: "2px 2px 4px rgba(0, 0, 0, 0.3)",
+      },
     },
   },
-  plugins: [],
+  plugins: [
+    function ({ addUtilities }) {
+      const newUtilities = {
+        ".text-shadow": {
+          textShadow: "0px 2px 4px rgba(0, 0, 0, 0.5)",
+        },
+      };
+      addUtilities(newUtilities, ["responsive", "hover"]);
+    },
+  ],
 };

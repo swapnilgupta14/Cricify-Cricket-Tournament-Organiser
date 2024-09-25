@@ -1,0 +1,3087 @@
+{
+    "typeMatches": [
+        {
+            "matchType": "International",
+            "seriesMatches": [
+                {
+                    "seriesAdWrapper": {
+                        "seriesId": 6794,
+                        "seriesName": "Australia tour of England, 2024",
+                        "matches": [
+                            {
+                                "matchInfo": {
+                                    "matchId": 76542,
+                                    "seriesId": 6794,
+                                    "seriesName": "Australia tour of England, 2024",
+                                    "matchDesc": "3rd T20I",
+                                    "matchFormat": "T20",
+                                    "startDate": "1726407000000",
+                                    "endDate": "1726419600000",
+                                    "state": "Complete",
+                                    "status": "Match abandoned due to rain",
+                                    "team1": {
+                                        "teamId": 9,
+                                        "teamName": "England",
+                                        "teamSName": "ENG",
+                                        "imageId": 172123
+                                    },
+                                    "team2": {
+                                        "teamId": 4,
+                                        "teamName": "Australia",
+                                        "teamSName": "AUS",
+                                        "imageId": 172117
+                                    },
+                                    "venueInfo": {
+                                        "id": 65,
+                                        "ground": "Emirates Old Trafford",
+                                        "city": "Manchester",
+                                        "timezone": "+01:00",
+                                        "latitude": "53.463066",
+                                        "longitude": "-2.291301"
+                                    },
+                                    "seriesStartDt": "1726012800000",
+                                    "seriesEndDt": "1727740800000",
+                                    "isTimeAnnounced": true,
+                                    "stateTitle": "Abandon",
+                                    "isFantasyEnabled": true
+                                }
+                            },
+                            {
+                                "matchInfo": {
+                                    "matchId": 76535,
+                                    "seriesId": 6794,
+                                    "seriesName": "Australia tour of England, 2024",
+                                    "matchDesc": "2nd T20I",
+                                    "matchFormat": "T20",
+                                    "startDate": "1726248600000",
+                                    "endDate": "1726261200000",
+                                    "state": "Complete",
+                                    "status": "England won by 3 wkts",
+                                    "team1": {
+                                        "teamId": 4,
+                                        "teamName": "Australia",
+                                        "teamSName": "AUS",
+                                        "imageId": 172117
+                                    },
+                                    "team2": {
+                                        "teamId": 9,
+                                        "teamName": "England",
+                                        "teamSName": "ENG",
+                                        "imageId": 172123
+                                    },
+                                    "venueInfo": {
+                                        "id": 62,
+                                        "ground": "Sophia Gardens",
+                                        "city": "Cardiff",
+                                        "timezone": "+01:00",
+                                        "latitude": "51.484257",
+                                        "longitude": "-3.189187"
+                                    },
+                                    "currBatTeamId": 9,
+                                    "seriesStartDt": "1726012800000",
+                                    "seriesEndDt": "1727740800000",
+                                    "isTimeAnnounced": true,
+                                    "stateTitle": "ENG Won",
+                                    "isFantasyEnabled": true
+                                },
+                                "matchScore": {
+                                    "team1Score": {
+                                        "inngs1": {
+                                            "inningsId": 1,
+                                            "runs": 193,
+                                            "wickets": 6,
+                                            "overs": 19.6
+                                        }
+                                    },
+                                    "team2Score": {
+                                        "inngs1": {
+                                            "inningsId": 2,
+                                            "runs": 194,
+                                            "wickets": 7,
+                                            "overs": 18.6
+                                        }
+                                    }
+                                }
+                            }
+                        ],
+                        "isFantasyHandbookEnabled": true
+                    }
+                },
+                {
+                    "adDetail": {
+                        "name": "native_matches",
+                        "layout": "native_large",
+                        "position": 1
+                    }
+                },
+                {
+                    "seriesAdWrapper": {
+                        "seriesId": 8661,
+                        "seriesName": "Afghanistan v South Africa in UAE, 2024",
+                        "matches": [
+                            {
+                                "matchInfo": {
+                                    "matchId": 103843,
+                                    "seriesId": 8661,
+                                    "seriesName": "Afghanistan v South Africa in UAE, 2024",
+                                    "matchDesc": "1st ODI",
+                                    "matchFormat": "ODI",
+                                    "startDate": "1726660800000",
+                                    "endDate": "1726689600000",
+                                    "state": "Complete",
+                                    "status": "Afghanistan won by 6 wkts",
+                                    "team1": {
+                                        "teamId": 11,
+                                        "teamName": "South Africa",
+                                        "teamSName": "RSA",
+                                        "imageId": 172126
+                                    },
+                                    "team2": {
+                                        "teamId": 96,
+                                        "teamName": "Afghanistan",
+                                        "teamSName": "AFG",
+                                        "imageId": 172188
+                                    },
+                                    "venueInfo": {
+                                        "id": 140,
+                                        "ground": "Sharjah Cricket Stadium",
+                                        "city": "Sharjah",
+                                        "timezone": "+04:00",
+                                        "latitude": "25.33095",
+                                        "longitude": "55.420902"
+                                    },
+                                    "currBatTeamId": 96,
+                                    "seriesStartDt": "1726617600000",
+                                    "seriesEndDt": "1727136000000",
+                                    "isTimeAnnounced": true,
+                                    "stateTitle": "AFG Won",
+                                    "isFantasyEnabled": true
+                                },
+                                "matchScore": {
+                                    "team1Score": {
+                                        "inngs1": {
+                                            "inningsId": 1,
+                                            "runs": 106,
+                                            "wickets": 10,
+                                            "overs": 33.3
+                                        }
+                                    },
+                                    "team2Score": {
+                                        "inngs1": {
+                                            "inningsId": 2,
+                                            "runs": 107,
+                                            "wickets": 4,
+                                            "overs": 25.6
+                                        }
+                                    }
+                                }
+                            }
+                        ],
+                        "isFantasyHandbookEnabled": true
+                    }
+                },
+                {
+                    "seriesAdWrapper": {
+                        "seriesId": 8625,
+                        "seriesName": "Afghanistan v New Zealand in India, 2024",
+                        "matches": [
+                            {
+                                "matchInfo": {
+                                    "matchId": 103285,
+                                    "seriesId": 8625,
+                                    "seriesName": "Afghanistan v New Zealand in India, 2024",
+                                    "matchDesc": "Only Test",
+                                    "matchFormat": "TEST",
+                                    "startDate": "1725856200000",
+                                    "endDate": "1726227000000",
+                                    "state": "Complete",
+                                    "status": "Match abandoned due to rain",
+                                    "team1": {
+                                        "teamId": 96,
+                                        "teamName": "Afghanistan",
+                                        "teamSName": "AFG",
+                                        "imageId": 172188
+                                    },
+                                    "team2": {
+                                        "teamId": 13,
+                                        "teamName": "New Zealand",
+                                        "teamSName": "NZ",
+                                        "imageId": 172128
+                                    },
+                                    "venueInfo": {
+                                        "id": 438,
+                                        "ground": "Greater Noida Sports Complex Ground",
+                                        "city": "Greater Noida",
+                                        "timezone": "+05:30",
+                                        "latitude": "28.4712646",
+                                        "longitude": "77.5226236"
+                                    },
+                                    "seriesStartDt": "1725840000000",
+                                    "seriesEndDt": "1726358400000",
+                                    "isTimeAnnounced": true,
+                                    "stateTitle": "Abandon"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "seriesAdWrapper": {
+                        "seriesId": 7572,
+                        "seriesName": "ICC Cricket World Cup League Two 2023-27",
+                        "matches": [
+                            {
+                                "matchInfo": {
+                                    "matchId": 106964,
+                                    "seriesId": 7572,
+                                    "seriesName": "ICC Cricket World Cup League Two 2023-27",
+                                    "matchDesc": "28th Match",
+                                    "matchFormat": "ODI",
+                                    "startDate": "1726671600000",
+                                    "endDate": "1726700400000",
+                                    "state": "Complete",
+                                    "status": "Oman won by 1 wkt",
+                                    "team1": {
+                                        "teamId": 72,
+                                        "teamName": "Nepal",
+                                        "teamSName": "NEP",
+                                        "imageId": 172169
+                                    },
+                                    "team2": {
+                                        "teamId": 304,
+                                        "teamName": "Oman",
+                                        "teamSName": "OMAN",
+                                        "imageId": 172353
+                                    },
+                                    "venueInfo": {
+                                        "id": 139,
+                                        "ground": "Maple Leaf North-West Ground",
+                                        "city": "King City",
+                                        "timezone": "-04:00",
+                                        "latitude": "36.210861",
+                                        "longitude": "-121.126602"
+                                    },
+                                    "currBatTeamId": 304,
+                                    "seriesStartDt": "1707955200000",
+                                    "seriesEndDt": "1806537600000",
+                                    "isTimeAnnounced": true,
+                                    "stateTitle": "OMAN Won"
+                                },
+                                "matchScore": {
+                                    "team1Score": {
+                                        "inngs1": {
+                                            "inningsId": 1,
+                                            "runs": 220,
+                                            "wickets": 9,
+                                            "overs": 49.6
+                                        }
+                                    },
+                                    "team2Score": {
+                                        "inngs1": {
+                                            "inningsId": 2,
+                                            "runs": 223,
+                                            "wickets": 9,
+                                            "overs": 49.5
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "matchInfo": {
+                                    "matchId": 106961,
+                                    "seriesId": 7572,
+                                    "seriesName": "ICC Cricket World Cup League Two 2023-27",
+                                    "matchDesc": "27th Match",
+                                    "matchFormat": "ODI",
+                                    "startDate": "1726644600000",
+                                    "endDate": "1726673400000",
+                                    "state": "Complete",
+                                    "status": "United States won by 10 wkts",
+                                    "team1": {
+                                        "teamId": 7,
+                                        "teamName": "United Arab Emirates",
+                                        "teamSName": "UAE",
+                                        "imageId": 172121
+                                    },
+                                    "team2": {
+                                        "teamId": 15,
+                                        "teamName": "United States",
+                                        "teamSName": "USA",
+                                        "imageId": 172130
+                                    },
+                                    "venueInfo": {
+                                        "id": 524,
+                                        "ground": "United Cricket Club Ground",
+                                        "city": "Windhoek",
+                                        "timezone": "+02:00",
+                                        "latitude": "-22.607692",
+                                        "longitude": "17.096075"
+                                    },
+                                    "currBatTeamId": 15,
+                                    "seriesStartDt": "1707955200000",
+                                    "seriesEndDt": "1806537600000",
+                                    "isTimeAnnounced": true,
+                                    "stateTitle": "USA Won"
+                                },
+                                "matchScore": {
+                                    "team1Score": {
+                                        "inngs1": {
+                                            "inningsId": 1,
+                                            "runs": 106,
+                                            "wickets": 10,
+                                            "overs": 31.2
+                                        }
+                                    },
+                                    "team2Score": {
+                                        "inngs1": {
+                                            "inningsId": 2,
+                                            "runs": 107,
+                                            "overs": 15.5
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "matchInfo": {
+                                    "matchId": 106953,
+                                    "seriesId": 7572,
+                                    "seriesName": "ICC Cricket World Cup League Two 2023-27",
+                                    "matchDesc": "26th Match",
+                                    "matchFormat": "ODI",
+                                    "startDate": "1726498800000",
+                                    "endDate": "1726527600000",
+                                    "state": "Complete",
+                                    "status": "Canada won by 103 runs",
+                                    "team1": {
+                                        "teamId": 26,
+                                        "teamName": "Canada",
+                                        "teamSName": "CAN",
+                                        "imageId": 172140
+                                    },
+                                    "team2": {
+                                        "teamId": 72,
+                                        "teamName": "Nepal",
+                                        "teamSName": "NEP",
+                                        "imageId": 172169
+                                    },
+                                    "venueInfo": {
+                                        "id": 139,
+                                        "ground": "Maple Leaf North-West Ground",
+                                        "city": "King City",
+                                        "timezone": "-04:00",
+                                        "latitude": "36.210861",
+                                        "longitude": "-121.126602"
+                                    },
+                                    "currBatTeamId": 26,
+                                    "seriesStartDt": "1707955200000",
+                                    "seriesEndDt": "1806537600000",
+                                    "isTimeAnnounced": true,
+                                    "stateTitle": "CAN Won"
+                                },
+                                "matchScore": {
+                                    "team1Score": {
+                                        "inngs1": {
+                                            "inningsId": 1,
+                                            "runs": 253,
+                                            "wickets": 8,
+                                            "overs": 49.6
+                                        }
+                                    },
+                                    "team2Score": {
+                                        "inngs1": {
+                                            "inningsId": 2,
+                                            "runs": 150,
+                                            "wickets": 10,
+                                            "overs": 40.1
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "matchInfo": {
+                                    "matchId": 106355,
+                                    "seriesId": 7572,
+                                    "seriesName": "ICC Cricket World Cup League Two 2023-27",
+                                    "matchDesc": "25th Match",
+                                    "matchFormat": "ODI",
+                                    "startDate": "1726471800000",
+                                    "endDate": "1726500600000",
+                                    "state": "Complete",
+                                    "status": "United States won by 6 wkts",
+                                    "team1": {
+                                        "teamId": 161,
+                                        "teamName": "Namibia",
+                                        "teamSName": "NAM",
+                                        "imageId": 172229
+                                    },
+                                    "team2": {
+                                        "teamId": 15,
+                                        "teamName": "United States",
+                                        "teamSName": "USA",
+                                        "imageId": 172130
+                                    },
+                                    "venueInfo": {
+                                        "id": 363,
+                                        "ground": "Wanderers Cricket Ground",
+                                        "city": "Windhoek",
+                                        "timezone": "+02:00",
+                                        "latitude": "-22.591791",
+                                        "longitude": "17.070549"
+                                    },
+                                    "currBatTeamId": 15,
+                                    "seriesStartDt": "1707955200000",
+                                    "seriesEndDt": "1806537600000",
+                                    "isTimeAnnounced": true,
+                                    "stateTitle": "USA Won"
+                                },
+                                "matchScore": {
+                                    "team1Score": {
+                                        "inngs1": {
+                                            "inningsId": 1,
+                                            "runs": 199,
+                                            "wickets": 9,
+                                            "overs": 49.6
+                                        }
+                                    },
+                                    "team2Score": {
+                                        "inngs1": {
+                                            "inningsId": 2,
+                                            "runs": 200,
+                                            "wickets": 4,
+                                            "overs": 41.3
+                                        }
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "matchType": "League",
+            "seriesMatches": [
+                {
+                    "seriesAdWrapper": {
+                        "seriesId": 7855,
+                        "seriesName": "Caribbean Premier League 2024",
+                        "matches": [
+                            {
+                                "matchInfo": {
+                                    "matchId": 92856,
+                                    "seriesId": 7855,
+                                    "seriesName": "Caribbean Premier League 2024",
+                                    "matchDesc": "19th Match",
+                                    "matchFormat": "T20",
+                                    "startDate": "1726700400000",
+                                    "endDate": "1726713000000",
+                                    "state": "Complete",
+                                    "status": "Trinbago Knight Riders won by 5 wkts",
+                                    "team1": {
+                                        "teamId": 159,
+                                        "teamName": "Guyana Amazon Warriors",
+                                        "teamSName": "GAW",
+                                        "imageId": 172227
+                                    },
+                                    "team2": {
+                                        "teamId": 271,
+                                        "teamName": "Trinbago Knight Riders",
+                                        "teamSName": "TKR",
+                                        "imageId": 172325
+                                    },
+                                    "venueInfo": {
+                                        "id": 54,
+                                        "ground": "Queen's Park Oval",
+                                        "city": "Port of Spain, Trinidad",
+                                        "timezone": "-04:00",
+                                        "latitude": "10.667461",
+                                        "longitude": "-61.523717"
+                                    },
+                                    "currBatTeamId": 271,
+                                    "seriesStartDt": "1724889600000",
+                                    "seriesEndDt": "1728345600000",
+                                    "isTimeAnnounced": true,
+                                    "stateTitle": "TKR Won",
+                                    "isFantasyEnabled": true
+                                },
+                                "matchScore": {
+                                    "team1Score": {
+                                        "inngs1": {
+                                            "inningsId": 1,
+                                            "runs": 148,
+                                            "wickets": 7,
+                                            "overs": 19.6
+                                        }
+                                    },
+                                    "team2Score": {
+                                        "inngs1": {
+                                            "inningsId": 2,
+                                            "runs": 149,
+                                            "wickets": 5,
+                                            "overs": 19.2
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "matchInfo": {
+                                    "matchId": 92851,
+                                    "seriesId": 7855,
+                                    "seriesName": "Caribbean Premier League 2024",
+                                    "matchDesc": "18th Match",
+                                    "matchFormat": "T20",
+                                    "startDate": "1726614000000",
+                                    "endDate": "1726626600000",
+                                    "state": "Complete",
+                                    "status": "Barbados Royals won by 9 wkts",
+                                    "team1": {
+                                        "teamId": 302,
+                                        "teamName": "St Kitts and Nevis Patriots",
+                                        "teamSName": "SNP",
+                                        "imageId": 172351
+                                    },
+                                    "team2": {
+                                        "teamId": 262,
+                                        "teamName": "Barbados Royals",
+                                        "teamSName": "BR",
+                                        "imageId": 210485
+                                    },
+                                    "venueInfo": {
+                                        "id": 55,
+                                        "ground": "Kensington Oval",
+                                        "city": "Bridgetown, Barbados",
+                                        "timezone": "-04:00",
+                                        "latitude": "13.105021",
+                                        "longitude": "-59.62257"
+                                    },
+                                    "currBatTeamId": 262,
+                                    "seriesStartDt": "1724889600000",
+                                    "seriesEndDt": "1728345600000",
+                                    "isTimeAnnounced": true,
+                                    "stateTitle": "BR Won",
+                                    "isFantasyEnabled": true
+                                },
+                                "matchScore": {
+                                    "team1Score": {
+                                        "inngs1": {
+                                            "inningsId": 1,
+                                            "runs": 110,
+                                            "wickets": 10,
+                                            "overs": 19.1
+                                        }
+                                    },
+                                    "team2Score": {
+                                        "inngs1": {
+                                            "inningsId": 2,
+                                            "runs": 113,
+                                            "wickets": 1,
+                                            "overs": 11.2
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "matchInfo": {
+                                    "matchId": 92849,
+                                    "seriesId": 7855,
+                                    "seriesName": "Caribbean Premier League 2024",
+                                    "matchDesc": "17th Match",
+                                    "matchFormat": "T20",
+                                    "startDate": "1726441200000",
+                                    "endDate": "1726453800000",
+                                    "state": "Complete",
+                                    "status": "Saint Lucia Kings won by 26 runs",
+                                    "team1": {
+                                        "teamId": 263,
+                                        "teamName": "Saint Lucia Kings",
+                                        "teamSName": "SLK",
+                                        "imageId": 172316
+                                    },
+                                    "team2": {
+                                        "teamId": 1978,
+                                        "teamName": "Antigua and Barbuda Falcons",
+                                        "teamSName": "ABF",
+                                        "imageId": 507236
+                                    },
+                                    "venueInfo": {
+                                        "id": 59,
+                                        "ground": "Daren Sammy National Cricket Stadium",
+                                        "city": "Gros Islet, St Lucia",
+                                        "timezone": "-04:00",
+                                        "latitude": "14.070532",
+                                        "longitude": "-60.931743"
+                                    },
+                                    "currBatTeamId": 263,
+                                    "seriesStartDt": "1724889600000",
+                                    "seriesEndDt": "1728345600000",
+                                    "isTimeAnnounced": true,
+                                    "stateTitle": "SLK Won",
+                                    "isFantasyEnabled": true
+                                },
+                                "matchScore": {
+                                    "team1Score": {
+                                        "inngs1": {
+                                            "inningsId": 1,
+                                            "runs": 152,
+                                            "wickets": 8,
+                                            "overs": 19.6
+                                        }
+                                    },
+                                    "team2Score": {
+                                        "inngs1": {
+                                            "inningsId": 2,
+                                            "runs": 126,
+                                            "wickets": 8,
+                                            "overs": 19.6
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "matchInfo": {
+                                    "matchId": 92840,
+                                    "seriesId": 7855,
+                                    "seriesName": "Caribbean Premier League 2024",
+                                    "matchDesc": "16th Match",
+                                    "matchFormat": "T20",
+                                    "startDate": "1726354800000",
+                                    "endDate": "1726367400000",
+                                    "state": "Complete",
+                                    "status": "Barbados Royals won by 32 runs",
+                                    "team1": {
+                                        "teamId": 262,
+                                        "teamName": "Barbados Royals",
+                                        "teamSName": "BR",
+                                        "imageId": 210485
+                                    },
+                                    "team2": {
+                                        "teamId": 159,
+                                        "teamName": "Guyana Amazon Warriors",
+                                        "teamSName": "GAW",
+                                        "imageId": 172227
+                                    },
+                                    "venueInfo": {
+                                        "id": 55,
+                                        "ground": "Kensington Oval",
+                                        "city": "Bridgetown, Barbados",
+                                        "timezone": "-04:00",
+                                        "latitude": "13.105021",
+                                        "longitude": "-59.62257"
+                                    },
+                                    "currBatTeamId": 262,
+                                    "seriesStartDt": "1724889600000",
+                                    "seriesEndDt": "1728345600000",
+                                    "isTimeAnnounced": true,
+                                    "stateTitle": "BR Won",
+                                    "isFantasyEnabled": true
+                                },
+                                "matchScore": {
+                                    "team1Score": {
+                                        "inngs1": {
+                                            "inningsId": 1,
+                                            "runs": 205,
+                                            "wickets": 6,
+                                            "overs": 19.6
+                                        }
+                                    },
+                                    "team2Score": {
+                                        "inngs1": {
+                                            "inningsId": 2,
+                                            "runs": 173,
+                                            "wickets": 5,
+                                            "overs": 19.6
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "matchInfo": {
+                                    "matchId": 92838,
+                                    "seriesId": 7855,
+                                    "seriesName": "Caribbean Premier League 2024",
+                                    "matchDesc": "15th Match",
+                                    "matchFormat": "T20",
+                                    "startDate": "1726268400000",
+                                    "endDate": "1726281000000",
+                                    "state": "Complete",
+                                    "status": "Trinbago Knight Riders won by 2 wkts",
+                                    "team1": {
+                                        "teamId": 262,
+                                        "teamName": "Barbados Royals",
+                                        "teamSName": "BR",
+                                        "imageId": 210485
+                                    },
+                                    "team2": {
+                                        "teamId": 271,
+                                        "teamName": "Trinbago Knight Riders",
+                                        "teamSName": "TKR",
+                                        "imageId": 172325
+                                    },
+                                    "venueInfo": {
+                                        "id": 55,
+                                        "ground": "Kensington Oval",
+                                        "city": "Bridgetown, Barbados",
+                                        "timezone": "-04:00",
+                                        "latitude": "13.105021",
+                                        "longitude": "-59.62257"
+                                    },
+                                    "currBatTeamId": 271,
+                                    "seriesStartDt": "1724889600000",
+                                    "seriesEndDt": "1728345600000",
+                                    "isTimeAnnounced": true,
+                                    "stateTitle": "TKR Won",
+                                    "isFantasyEnabled": true
+                                },
+                                "matchScore": {
+                                    "team1Score": {
+                                        "inngs1": {
+                                            "inningsId": 1,
+                                            "runs": 156,
+                                            "wickets": 7,
+                                            "overs": 19.6
+                                        }
+                                    },
+                                    "team2Score": {
+                                        "inngs1": {
+                                            "inningsId": 2,
+                                            "runs": 159,
+                                            "wickets": 8,
+                                            "overs": 19.5
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "matchInfo": {
+                                    "matchId": 92829,
+                                    "seriesId": 7855,
+                                    "seriesName": "Caribbean Premier League 2024",
+                                    "matchDesc": "14th Match",
+                                    "matchFormat": "T20",
+                                    "startDate": "1726182000000",
+                                    "endDate": "1726194600000",
+                                    "state": "Complete",
+                                    "status": "Saint Lucia Kings won by 5 wkts",
+                                    "team1": {
+                                        "teamId": 302,
+                                        "teamName": "St Kitts and Nevis Patriots",
+                                        "teamSName": "SNP",
+                                        "imageId": 172351
+                                    },
+                                    "team2": {
+                                        "teamId": 263,
+                                        "teamName": "Saint Lucia Kings",
+                                        "teamSName": "SLK",
+                                        "imageId": 172316
+                                    },
+                                    "venueInfo": {
+                                        "id": 59,
+                                        "ground": "Daren Sammy National Cricket Stadium",
+                                        "city": "Gros Islet, St Lucia",
+                                        "timezone": "-04:00",
+                                        "latitude": "14.070532",
+                                        "longitude": "-60.931743"
+                                    },
+                                    "currBatTeamId": 263,
+                                    "seriesStartDt": "1724889600000",
+                                    "seriesEndDt": "1728345600000",
+                                    "isTimeAnnounced": true,
+                                    "stateTitle": "SLK Won",
+                                    "isFantasyEnabled": true
+                                },
+                                "matchScore": {
+                                    "team1Score": {
+                                        "inngs1": {
+                                            "inningsId": 1,
+                                            "runs": 173,
+                                            "wickets": 5,
+                                            "overs": 19.6
+                                        }
+                                    },
+                                    "team2Score": {
+                                        "inngs1": {
+                                            "inningsId": 2,
+                                            "runs": 176,
+                                            "wickets": 5,
+                                            "overs": 16.3
+                                        }
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "seriesAdWrapper": {
+                        "seriesId": 7336,
+                        "seriesName": "T20 Blast 2024",
+                        "matches": [
+                            {
+                                "matchInfo": {
+                                    "matchId": 85260,
+                                    "seriesId": 7336,
+                                    "seriesName": "T20 Blast 2024",
+                                    "matchDesc": "Final",
+                                    "matchFormat": "T20",
+                                    "startDate": "1726335900000",
+                                    "endDate": "1726348500000",
+                                    "state": "Complete",
+                                    "status": "Gloucestershire won by 8 wkts",
+                                    "team1": {
+                                        "teamId": 119,
+                                        "teamName": "Somerset",
+                                        "teamSName": "SOM",
+                                        "imageId": 172199
+                                    },
+                                    "team2": {
+                                        "teamId": 151,
+                                        "teamName": "Gloucestershire",
+                                        "teamSName": "GLOUCS",
+                                        "imageId": 172218
+                                    },
+                                    "venueInfo": {
+                                        "id": 20,
+                                        "ground": "Edgbaston",
+                                        "city": "Birmingham",
+                                        "timezone": "+01:00",
+                                        "latitude": "52.455774",
+                                        "longitude": "-1.902624"
+                                    },
+                                    "currBatTeamId": 151,
+                                    "seriesStartDt": "1717027200000",
+                                    "seriesEndDt": "1726444800000",
+                                    "isTimeAnnounced": true,
+                                    "stateTitle": "GLOUCS Won"
+                                },
+                                "matchScore": {
+                                    "team1Score": {
+                                        "inngs1": {
+                                            "inningsId": 1,
+                                            "runs": 124,
+                                            "wickets": 10,
+                                            "overs": 19.4
+                                        }
+                                    },
+                                    "team2Score": {
+                                        "inngs1": {
+                                            "inningsId": 2,
+                                            "runs": 129,
+                                            "wickets": 2,
+                                            "overs": 14.6
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "matchInfo": {
+                                    "matchId": 85246,
+                                    "seriesId": 7336,
+                                    "seriesName": "T20 Blast 2024",
+                                    "matchDesc": "Semi Final 2",
+                                    "matchFormat": "T20",
+                                    "startDate": "1726320600000",
+                                    "endDate": "1726333200000",
+                                    "state": "Complete",
+                                    "status": "Gloucestershire won by 8 wkts",
+                                    "team1": {
+                                        "teamId": 41,
+                                        "teamName": "Sussex",
+                                        "teamSName": "SUS",
+                                        "imageId": 172148
+                                    },
+                                    "team2": {
+                                        "teamId": 151,
+                                        "teamName": "Gloucestershire",
+                                        "teamSName": "GLOUCS",
+                                        "imageId": 172218
+                                    },
+                                    "venueInfo": {
+                                        "id": 20,
+                                        "ground": "Edgbaston",
+                                        "city": "Birmingham",
+                                        "timezone": "+01:00",
+                                        "latitude": "52.455774",
+                                        "longitude": "-1.902624"
+                                    },
+                                    "currBatTeamId": 151,
+                                    "seriesStartDt": "1717027200000",
+                                    "seriesEndDt": "1726444800000",
+                                    "isTimeAnnounced": true,
+                                    "stateTitle": "GLOUCS Won"
+                                },
+                                "matchScore": {
+                                    "team1Score": {
+                                        "inngs1": {
+                                            "inningsId": 1,
+                                            "runs": 106,
+                                            "wickets": 10,
+                                            "overs": 18.1
+                                        }
+                                    },
+                                    "team2Score": {
+                                        "inngs1": {
+                                            "inningsId": 2,
+                                            "runs": 109,
+                                            "wickets": 2,
+                                            "overs": 13.4
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "matchInfo": {
+                                    "matchId": 85239,
+                                    "seriesId": 7336,
+                                    "seriesName": "T20 Blast 2024",
+                                    "matchDesc": "Semi Final 1",
+                                    "matchFormat": "T20",
+                                    "startDate": "1726308000000",
+                                    "endDate": "1726320600000",
+                                    "state": "Complete",
+                                    "status": "Somerset won by 6 wkts",
+                                    "team1": {
+                                        "teamId": 148,
+                                        "teamName": "Surrey",
+                                        "teamSName": "SUR",
+                                        "imageId": 172215
+                                    },
+                                    "team2": {
+                                        "teamId": 119,
+                                        "teamName": "Somerset",
+                                        "teamSName": "SOM",
+                                        "imageId": 172199
+                                    },
+                                    "venueInfo": {
+                                        "id": 20,
+                                        "ground": "Edgbaston",
+                                        "city": "Birmingham",
+                                        "timezone": "+01:00",
+                                        "latitude": "52.455774",
+                                        "longitude": "-1.902624"
+                                    },
+                                    "currBatTeamId": 119,
+                                    "seriesStartDt": "1717027200000",
+                                    "seriesEndDt": "1726444800000",
+                                    "isTimeAnnounced": true,
+                                    "stateTitle": "SOM Won"
+                                },
+                                "matchScore": {
+                                    "team1Score": {
+                                        "inngs1": {
+                                            "inningsId": 1,
+                                            "runs": 153,
+                                            "wickets": 9,
+                                            "overs": 19.6
+                                        }
+                                    },
+                                    "team2Score": {
+                                        "inngs1": {
+                                            "inningsId": 2,
+                                            "runs": 159,
+                                            "wickets": 4,
+                                            "overs": 18.4
+                                        }
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "matchType": "Domestic",
+            "seriesMatches": [
+                {
+                    "seriesAdWrapper": {
+                        "seriesId": 8700,
+                        "seriesName": "Duleep Trophy 2024",
+                        "matches": [
+                            {
+                                "matchInfo": {
+                                    "matchId": 104218,
+                                    "seriesId": 8700,
+                                    "seriesName": "Duleep Trophy 2024",
+                                    "matchDesc": "4th Match",
+                                    "matchFormat": "TEST",
+                                    "startDate": "1726113600000",
+                                    "endDate": "1726398000000",
+                                    "state": "Complete",
+                                    "status": "Match drawn",
+                                    "team1": {
+                                        "teamId": 481,
+                                        "teamName": "India C",
+                                        "teamSName": "INDC",
+                                        "imageId": 544438
+                                    },
+                                    "team2": {
+                                        "teamId": 231,
+                                        "teamName": "India B",
+                                        "teamSName": "INDB",
+                                        "imageId": 544437
+                                    },
+                                    "venueInfo": {
+                                        "id": 1437844,
+                                        "ground": "Rural Development Trust Stadium B",
+                                        "city": "Anantapur",
+                                        "timezone": "+05:30",
+                                        "latitude": "14.6370826",
+                                        "longitude": "77.618433"
+                                    },
+                                    "seriesStartDt": "1725494400000",
+                                    "seriesEndDt": "1727136000000",
+                                    "isTimeAnnounced": true,
+                                    "stateTitle": "Match drawn"
+                                },
+                                "matchScore": {
+                                    "team1Score": {
+                                        "inngs1": {
+                                            "inningsId": 1,
+                                            "runs": 525,
+                                            "wickets": 10,
+                                            "overs": 124.1
+                                        },
+                                        "inngs2": {
+                                            "inningsId": 3,
+                                            "runs": 128,
+                                            "wickets": 4,
+                                            "overs": 37.0,
+                                            "isDeclared": true
+                                        }
+                                    },
+                                    "team2Score": {
+                                        "inngs1": {
+                                            "inningsId": 2,
+                                            "runs": 332,
+                                            "wickets": 10,
+                                            "overs": 108.0
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "matchInfo": {
+                                    "matchId": 104212,
+                                    "seriesId": 8700,
+                                    "seriesName": "Duleep Trophy 2024",
+                                    "matchDesc": "3rd Match",
+                                    "matchFormat": "TEST",
+                                    "startDate": "1726113600000",
+                                    "endDate": "1726398000000",
+                                    "state": "Complete",
+                                    "status": "India A won by 186 runs",
+                                    "team1": {
+                                        "teamId": 78,
+                                        "teamName": "India A",
+                                        "teamSName": "INDA",
+                                        "imageId": 544436
+                                    },
+                                    "team2": {
+                                        "teamId": 2090,
+                                        "teamName": "India D",
+                                        "teamSName": "INDD",
+                                        "imageId": 544439
+                                    },
+                                    "venueInfo": {
+                                        "id": 305,
+                                        "ground": "Rural Development Trust Stadium",
+                                        "city": "Anantapur",
+                                        "timezone": "+05:30",
+                                        "latitude": "14.638911",
+                                        "longitude": "77.61977"
+                                    },
+                                    "currBatTeamId": 78,
+                                    "seriesStartDt": "1725494400000",
+                                    "seriesEndDt": "1727136000000",
+                                    "isTimeAnnounced": true,
+                                    "stateTitle": "INDA Won"
+                                },
+                                "matchScore": {
+                                    "team1Score": {
+                                        "inngs1": {
+                                            "inningsId": 1,
+                                            "runs": 290,
+                                            "wickets": 10,
+                                            "overs": 84.3
+                                        },
+                                        "inngs2": {
+                                            "inningsId": 3,
+                                            "runs": 380,
+                                            "wickets": 3,
+                                            "overs": 97.6,
+                                            "isDeclared": true
+                                        }
+                                    },
+                                    "team2Score": {
+                                        "inngs1": {
+                                            "inningsId": 2,
+                                            "runs": 183,
+                                            "wickets": 10,
+                                            "overs": 52.1
+                                        },
+                                        "inngs2": {
+                                            "inningsId": 4,
+                                            "runs": 301,
+                                            "wickets": 10,
+                                            "overs": 82.2
+                                        }
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "seriesAdWrapper": {
+                        "seriesId": 7352,
+                        "seriesName": "County Championship Division One 2024",
+                        "matches": [
+                            {
+                                "matchInfo": {
+                                    "matchId": 84509,
+                                    "seriesId": 7352,
+                                    "seriesName": "County Championship Division One 2024",
+                                    "matchDesc": "65th Match",
+                                    "matchFormat": "TEST",
+                                    "startDate": "1726565400000",
+                                    "endDate": "1726849800000",
+                                    "state": "Complete",
+                                    "status": "Essex won by an innings and 40 runs",
+                                    "team1": {
+                                        "teamId": 140,
+                                        "teamName": "Warwickshire",
+                                        "teamSName": "WARKS",
+                                        "imageId": 172207
+                                    },
+                                    "team2": {
+                                        "teamId": 152,
+                                        "teamName": "Essex",
+                                        "teamSName": "ESS",
+                                        "imageId": 172219
+                                    },
+                                    "venueInfo": {
+                                        "id": 20,
+                                        "ground": "Edgbaston",
+                                        "city": "Birmingham",
+                                        "timezone": "+01:00",
+                                        "latitude": "52.455774",
+                                        "longitude": "-1.902624"
+                                    },
+                                    "currBatTeamId": 152,
+                                    "seriesStartDt": "1712275200000",
+                                    "seriesEndDt": "1727740800000",
+                                    "isTimeAnnounced": true,
+                                    "stateTitle": "ESS Won"
+                                },
+                                "matchScore": {
+                                    "team1Score": {
+                                        "inngs1": {
+                                            "inningsId": 1,
+                                            "runs": 78,
+                                            "wickets": 10,
+                                            "overs": 27.4
+                                        },
+                                        "inngs2": {
+                                            "inningsId": 3,
+                                            "runs": 114,
+                                            "wickets": 10,
+                                            "overs": 34.1
+                                        }
+                                    },
+                                    "team2Score": {
+                                        "inngs1": {
+                                            "inningsId": 2,
+                                            "runs": 232,
+                                            "wickets": 10,
+                                            "overs": 65.5
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "matchInfo": {
+                                    "matchId": 84457,
+                                    "seriesId": 7352,
+                                    "seriesName": "County Championship Division One 2024",
+                                    "matchDesc": "56th Match",
+                                    "matchFormat": "TEST",
+                                    "startDate": "1725874200000",
+                                    "endDate": "1726158600000",
+                                    "state": "Complete",
+                                    "status": "Durham won by an innings and 63 runs",
+                                    "team1": {
+                                        "teamId": 143,
+                                        "teamName": "Lancashire",
+                                        "teamSName": "LANCS",
+                                        "imageId": 172210
+                                    },
+                                    "team2": {
+                                        "teamId": 141,
+                                        "teamName": "Durham",
+                                        "teamSName": "DUR",
+                                        "imageId": 172208
+                                    },
+                                    "venueInfo": {
+                                        "id": 60,
+                                        "ground": "Riverside Ground",
+                                        "city": "Chester-le-Street",
+                                        "timezone": "+01:00",
+                                        "latitude": "54.849531",
+                                        "longitude": "-1.56103"
+                                    },
+                                    "currBatTeamId": 141,
+                                    "seriesStartDt": "1712275200000",
+                                    "seriesEndDt": "1727740800000",
+                                    "isTimeAnnounced": true,
+                                    "stateTitle": "DUR Won"
+                                },
+                                "matchScore": {
+                                    "team1Score": {
+                                        "inngs1": {
+                                            "inningsId": 1,
+                                            "runs": 228,
+                                            "wickets": 10,
+                                            "overs": 94.3
+                                        },
+                                        "inngs2": {
+                                            "inningsId": 3,
+                                            "runs": 282,
+                                            "wickets": 10,
+                                            "overs": 80.2
+                                        }
+                                    },
+                                    "team2Score": {
+                                        "inngs1": {
+                                            "inningsId": 2,
+                                            "runs": 573,
+                                            "wickets": 9,
+                                            "overs": 135.3,
+                                            "isDeclared": true
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "matchInfo": {
+                                    "matchId": 84478,
+                                    "seriesId": 7352,
+                                    "seriesName": "County Championship Division One 2024",
+                                    "matchDesc": "59th Match",
+                                    "matchFormat": "TEST",
+                                    "startDate": "1725874200000",
+                                    "endDate": "1726158600000",
+                                    "state": "Complete",
+                                    "status": "Somerset won by 111 runs",
+                                    "team1": {
+                                        "teamId": 119,
+                                        "teamName": "Somerset",
+                                        "teamSName": "SOM",
+                                        "imageId": 172199
+                                    },
+                                    "team2": {
+                                        "teamId": 148,
+                                        "teamName": "Surrey",
+                                        "teamSName": "SUR",
+                                        "imageId": 172215
+                                    },
+                                    "venueInfo": {
+                                        "id": 223,
+                                        "ground": "The Cooper Associates County Ground",
+                                        "city": "Taunton",
+                                        "timezone": "+01:00",
+                                        "latitude": "51.018913",
+                                        "longitude": "3.100894"
+                                    },
+                                    "currBatTeamId": 119,
+                                    "seriesStartDt": "1712275200000",
+                                    "seriesEndDt": "1727740800000",
+                                    "isTimeAnnounced": true,
+                                    "stateTitle": "SOM Won"
+                                },
+                                "matchScore": {
+                                    "team1Score": {
+                                        "inngs1": {
+                                            "inningsId": 1,
+                                            "runs": 317,
+                                            "wickets": 10,
+                                            "overs": 95.5
+                                        },
+                                        "inngs2": {
+                                            "inningsId": 3,
+                                            "runs": 224,
+                                            "wickets": 10,
+                                            "overs": 63.3
+                                        }
+                                    },
+                                    "team2Score": {
+                                        "inngs1": {
+                                            "inningsId": 2,
+                                            "runs": 321,
+                                            "wickets": 10,
+                                            "overs": 112.2
+                                        },
+                                        "inngs2": {
+                                            "inningsId": 4,
+                                            "runs": 109,
+                                            "wickets": 10,
+                                            "overs": 77.6
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "matchInfo": {
+                                    "matchId": 84464,
+                                    "seriesId": 7352,
+                                    "seriesName": "County Championship Division One 2024",
+                                    "matchDesc": "57th Match",
+                                    "matchFormat": "TEST",
+                                    "startDate": "1725874200000",
+                                    "endDate": "1726158600000",
+                                    "state": "Complete",
+                                    "status": "Essex won by an innings and 83 runs",
+                                    "team1": {
+                                        "teamId": 152,
+                                        "teamName": "Essex",
+                                        "teamSName": "ESS",
+                                        "imageId": 172219
+                                    },
+                                    "team2": {
+                                        "teamId": 139,
+                                        "teamName": "Nottinghamshire",
+                                        "teamSName": "NOTTS",
+                                        "imageId": 172206
+                                    },
+                                    "venueInfo": {
+                                        "id": 118,
+                                        "ground": "County Ground",
+                                        "city": "Chelmsford",
+                                        "timezone": "+01:00",
+                                        "latitude": "51.731580",
+                                        "longitude": "0.469004"
+                                    },
+                                    "currBatTeamId": 152,
+                                    "seriesStartDt": "1712275200000",
+                                    "seriesEndDt": "1727740800000",
+                                    "isTimeAnnounced": true,
+                                    "stateTitle": "ESS Won"
+                                },
+                                "matchScore": {
+                                    "team1Score": {
+                                        "inngs1": {
+                                            "inningsId": 1,
+                                            "runs": 457,
+                                            "wickets": 10,
+                                            "overs": 118.3
+                                        }
+                                    },
+                                    "team2Score": {
+                                        "inngs1": {
+                                            "inningsId": 2,
+                                            "runs": 93,
+                                            "wickets": 10,
+                                            "overs": 40.5
+                                        },
+                                        "inngs2": {
+                                            "inningsId": 3,
+                                            "runs": 281,
+                                            "wickets": 10,
+                                            "overs": 93.2,
+                                            "isFollowOn": true
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "matchInfo": {
+                                    "matchId": 84481,
+                                    "seriesId": 7352,
+                                    "seriesName": "County Championship Division One 2024",
+                                    "matchDesc": "60th Match",
+                                    "matchFormat": "TEST",
+                                    "startDate": "1725874200000",
+                                    "endDate": "1726158600000",
+                                    "state": "Complete",
+                                    "status": "Match drawn",
+                                    "team1": {
+                                        "teamId": 147,
+                                        "teamName": "Worcestershire",
+                                        "teamSName": "WORCS",
+                                        "imageId": 172214
+                                    },
+                                    "team2": {
+                                        "teamId": 140,
+                                        "teamName": "Warwickshire",
+                                        "teamSName": "WARKS",
+                                        "imageId": 172207
+                                    },
+                                    "venueInfo": {
+                                        "id": 225,
+                                        "ground": "New Road",
+                                        "city": "Worcester",
+                                        "timezone": "+01:00",
+                                        "latitude": "52.189294",
+                                        "longitude": "-2.2268"
+                                    },
+                                    "seriesStartDt": "1712275200000",
+                                    "seriesEndDt": "1727740800000",
+                                    "isTimeAnnounced": true,
+                                    "stateTitle": "Match drawn"
+                                },
+                                "matchScore": {
+                                    "team1Score": {
+                                        "inngs1": {
+                                            "inningsId": 1,
+                                            "runs": 307,
+                                            "wickets": 10,
+                                            "overs": 99.6
+                                        }
+                                    },
+                                    "team2Score": {
+                                        "inngs1": {
+                                            "inningsId": 2,
+                                            "runs": 128,
+                                            "wickets": 10,
+                                            "overs": 42.2
+                                        },
+                                        "inngs2": {
+                                            "inningsId": 3,
+                                            "runs": 252,
+                                            "wickets": 3,
+                                            "overs": 86.1,
+                                            "isFollowOn": true
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "matchInfo": {
+                                    "matchId": 84471,
+                                    "seriesId": 7352,
+                                    "seriesName": "County Championship Division One 2024",
+                                    "matchDesc": "58th Match",
+                                    "matchFormat": "TEST",
+                                    "startDate": "1725874200000",
+                                    "endDate": "1726158600000",
+                                    "state": "Complete",
+                                    "status": "Match drawn",
+                                    "team1": {
+                                        "teamId": 153,
+                                        "teamName": "Hampshire",
+                                        "teamSName": "HAM",
+                                        "imageId": 172220
+                                    },
+                                    "team2": {
+                                        "teamId": 150,
+                                        "teamName": "Kent",
+                                        "teamSName": "KENT",
+                                        "imageId": 172217
+                                    },
+                                    "venueInfo": {
+                                        "id": 67,
+                                        "ground": "St Lawrence Ground",
+                                        "city": "Canterbury",
+                                        "timezone": "+01:00",
+                                        "latitude": "51.267447",
+                                        "longitude": "1.091621"
+                                    },
+                                    "seriesStartDt": "1712275200000",
+                                    "seriesEndDt": "1727740800000",
+                                    "isTimeAnnounced": true,
+                                    "stateTitle": "Match drawn"
+                                },
+                                "matchScore": {
+                                    "team1Score": {
+                                        "inngs1": {
+                                            "inningsId": 1,
+                                            "runs": 403,
+                                            "wickets": 10,
+                                            "overs": 106.3
+                                        },
+                                        "inngs2": {
+                                            "inningsId": 4,
+                                            "runs": 24,
+                                            "wickets": 1,
+                                            "overs": 2.4
+                                        }
+                                    },
+                                    "team2Score": {
+                                        "inngs1": {
+                                            "inningsId": 2,
+                                            "runs": 207,
+                                            "wickets": 10,
+                                            "overs": 82.2
+                                        },
+                                        "inngs2": {
+                                            "inningsId": 3,
+                                            "runs": 338,
+                                            "wickets": 10,
+                                            "overs": 102.4,
+                                            "isFollowOn": true
+                                        }
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "seriesAdWrapper": {
+                        "seriesId": 7366,
+                        "seriesName": "County Championship Division Two 2024",
+                        "matches": [
+                            {
+                                "matchInfo": {
+                                    "matchId": 85500,
+                                    "seriesId": 7366,
+                                    "seriesName": "County Championship Division Two 2024",
+                                    "matchDesc": "45th Match",
+                                    "matchFormat": "TEST",
+                                    "startDate": "1725874200000",
+                                    "endDate": "1726158600000",
+                                    "state": "Complete",
+                                    "status": "Yorkshire won by an innings and 72 runs",
+                                    "team1": {
+                                        "teamId": 145,
+                                        "teamName": "Leicestershire",
+                                        "teamSName": "LEIC",
+                                        "imageId": 172212
+                                    },
+                                    "team2": {
+                                        "teamId": 146,
+                                        "teamName": "Yorkshire",
+                                        "teamSName": "YORKS",
+                                        "imageId": 172213
+                                    },
+                                    "venueInfo": {
+                                        "id": 222,
+                                        "ground": "Grace Road",
+                                        "city": "Leicester",
+                                        "timezone": "+01:00",
+                                        "latitude": "52.607861",
+                                        "longitude": "-1.142709"
+                                    },
+                                    "currBatTeamId": 146,
+                                    "seriesStartDt": "1712275200000",
+                                    "seriesEndDt": "1727740800000",
+                                    "isTimeAnnounced": true,
+                                    "stateTitle": "YORKS Won"
+                                },
+                                "matchScore": {
+                                    "team1Score": {
+                                        "inngs1": {
+                                            "inningsId": 1,
+                                            "runs": 98,
+                                            "wickets": 10,
+                                            "overs": 24.2
+                                        },
+                                        "inngs2": {
+                                            "inningsId": 3,
+                                            "runs": 209,
+                                            "wickets": 10,
+                                            "overs": 53.3
+                                        }
+                                    },
+                                    "team2Score": {
+                                        "inngs1": {
+                                            "inningsId": 2,
+                                            "runs": 379,
+                                            "wickets": 10,
+                                            "overs": 97.6
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "matchInfo": {
+                                    "matchId": 85514,
+                                    "seriesId": 7366,
+                                    "seriesName": "County Championship Division Two 2024",
+                                    "matchDesc": "48th Match",
+                                    "matchFormat": "TEST",
+                                    "startDate": "1725874200000",
+                                    "endDate": "1726158600000",
+                                    "state": "Complete",
+                                    "status": "Sussex won by an innings and 89 runs",
+                                    "team1": {
+                                        "teamId": 149,
+                                        "teamName": "Glamorgan",
+                                        "teamSName": "GLAM",
+                                        "imageId": 172216
+                                    },
+                                    "team2": {
+                                        "teamId": 41,
+                                        "teamName": "Sussex",
+                                        "teamSName": "SUS",
+                                        "imageId": 172148
+                                    },
+                                    "venueInfo": {
+                                        "id": 292,
+                                        "ground": "County Ground",
+                                        "city": "Hove",
+                                        "timezone": "+01:00",
+                                        "latitude": "50.830995",
+                                        "longitude": "-0.163522"
+                                    },
+                                    "currBatTeamId": 41,
+                                    "seriesStartDt": "1712275200000",
+                                    "seriesEndDt": "1727740800000",
+                                    "isTimeAnnounced": true,
+                                    "stateTitle": "SUS Won"
+                                },
+                                "matchScore": {
+                                    "team1Score": {
+                                        "inngs1": {
+                                            "inningsId": 1,
+                                            "runs": 184,
+                                            "wickets": 10,
+                                            "overs": 57.3
+                                        },
+                                        "inngs2": {
+                                            "inningsId": 3,
+                                            "runs": 218,
+                                            "wickets": 10,
+                                            "overs": 72.2
+                                        }
+                                    },
+                                    "team2Score": {
+                                        "inngs1": {
+                                            "inningsId": 2,
+                                            "runs": 491,
+                                            "wickets": 10,
+                                            "overs": 131.6
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "matchInfo": {
+                                    "matchId": 85507,
+                                    "seriesId": 7366,
+                                    "seriesName": "County Championship Division Two 2024",
+                                    "matchDesc": "46th Match",
+                                    "matchFormat": "TEST",
+                                    "startDate": "1725874200000",
+                                    "endDate": "1726158600000",
+                                    "state": "Complete",
+                                    "status": "Gloucestershire won by 4 wkts",
+                                    "team1": {
+                                        "teamId": 74,
+                                        "teamName": "Middlesex",
+                                        "teamSName": "MDX",
+                                        "imageId": 172170
+                                    },
+                                    "team2": {
+                                        "teamId": 151,
+                                        "teamName": "Gloucestershire",
+                                        "teamSName": "GLOUCS",
+                                        "imageId": 172218
+                                    },
+                                    "venueInfo": {
+                                        "id": 19,
+                                        "ground": "Lord's",
+                                        "city": "London",
+                                        "timezone": "+01:00",
+                                        "latitude": "51.529488",
+                                        "longitude": "-0.172926"
+                                    },
+                                    "currBatTeamId": 151,
+                                    "seriesStartDt": "1712275200000",
+                                    "seriesEndDt": "1727740800000",
+                                    "isTimeAnnounced": true,
+                                    "stateTitle": "GLOUCS Won"
+                                },
+                                "matchScore": {
+                                    "team1Score": {
+                                        "inngs1": {
+                                            "inningsId": 1,
+                                            "runs": 377,
+                                            "wickets": 10,
+                                            "overs": 93.2
+                                        },
+                                        "inngs2": {
+                                            "inningsId": 3,
+                                            "runs": 165,
+                                            "wickets": 10,
+                                            "overs": 29.2
+                                        }
+                                    },
+                                    "team2Score": {
+                                        "inngs1": {
+                                            "inningsId": 2,
+                                            "runs": 309,
+                                            "wickets": 9,
+                                            "overs": 87.1,
+                                            "isDeclared": true
+                                        },
+                                        "inngs2": {
+                                            "inningsId": 4,
+                                            "runs": 236,
+                                            "wickets": 6,
+                                            "overs": 65.5
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "matchInfo": {
+                                    "matchId": 85510,
+                                    "seriesId": 7366,
+                                    "seriesName": "County Championship Division Two 2024",
+                                    "matchDesc": "47th Match",
+                                    "matchFormat": "TEST",
+                                    "startDate": "1725874200000",
+                                    "endDate": "1726158600000",
+                                    "state": "Complete",
+                                    "status": "Northamptonshire won by 133 runs",
+                                    "team1": {
+                                        "teamId": 142,
+                                        "teamName": "Northamptonshire",
+                                        "teamSName": "NHNTS",
+                                        "imageId": 172209
+                                    },
+                                    "team2": {
+                                        "teamId": 144,
+                                        "teamName": "Derbyshire",
+                                        "teamSName": "DERBY",
+                                        "imageId": 172211
+                                    },
+                                    "venueInfo": {
+                                        "id": 119,
+                                        "ground": "County Ground",
+                                        "city": "Northampton",
+                                        "timezone": "+01:00",
+                                        "latitude": "52.248160",
+                                        "longitude": "-0.871060"
+                                    },
+                                    "currBatTeamId": 142,
+                                    "seriesStartDt": "1712275200000",
+                                    "seriesEndDt": "1727740800000",
+                                    "isTimeAnnounced": true,
+                                    "stateTitle": "NHNTS Won"
+                                },
+                                "matchScore": {
+                                    "team1Score": {
+                                        "inngs1": {
+                                            "inningsId": 1,
+                                            "runs": 219,
+                                            "wickets": 10,
+                                            "overs": 66.5
+                                        },
+                                        "inngs2": {
+                                            "inningsId": 3,
+                                            "runs": 211,
+                                            "wickets": 10,
+                                            "overs": 62.2
+                                        }
+                                    },
+                                    "team2Score": {
+                                        "inngs1": {
+                                            "inningsId": 2,
+                                            "runs": 165,
+                                            "wickets": 10,
+                                            "overs": 61.3
+                                        },
+                                        "inngs2": {
+                                            "inningsId": 4,
+                                            "runs": 132,
+                                            "wickets": 10,
+                                            "overs": 45.6
+                                        }
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "seriesAdWrapper": {
+                        "seriesId": 8820,
+                        "seriesName": "Sri Lanka A tour of South Africa,2024",
+                        "matches": [
+                            {
+                                "matchInfo": {
+                                    "matchId": 105988,
+                                    "seriesId": 8820,
+                                    "seriesName": "Sri Lanka A tour of South Africa,2024",
+                                    "matchDesc": "2nd Unofficial Test",
+                                    "matchFormat": "TEST",
+                                    "startDate": "1726387200000",
+                                    "endDate": "1726671600000",
+                                    "state": "Complete",
+                                    "status": "Sri Lanka A won by 5 wkts",
+                                    "team1": {
+                                        "teamId": 268,
+                                        "teamName": "South Africa A",
+                                        "teamSName": "RSAA",
+                                        "imageId": 172321
+                                    },
+                                    "team2": {
+                                        "teamId": 43,
+                                        "teamName": "Sri Lanka A",
+                                        "teamSName": "SLA",
+                                        "imageId": 172150
+                                    },
+                                    "venueInfo": {
+                                        "id": 135,
+                                        "ground": "Willowmoore Park",
+                                        "city": "Benoni",
+                                        "timezone": "+02:00",
+                                        "latitude": "55.430751",
+                                        "longitude": "-4.634697"
+                                    },
+                                    "currBatTeamId": 43,
+                                    "seriesStartDt": "1725062400000",
+                                    "seriesEndDt": "1726790400000",
+                                    "isTimeAnnounced": true,
+                                    "stateTitle": "SLA Won"
+                                },
+                                "matchScore": {
+                                    "team1Score": {
+                                        "inngs1": {
+                                            "inningsId": 1,
+                                            "runs": 334,
+                                            "wickets": 10,
+                                            "overs": 92.1
+                                        },
+                                        "inngs2": {
+                                            "inningsId": 3,
+                                            "runs": 238,
+                                            "wickets": 9,
+                                            "overs": 51.2,
+                                            "isDeclared": true
+                                        }
+                                    },
+                                    "team2Score": {
+                                        "inngs1": {
+                                            "inningsId": 2,
+                                            "runs": 319,
+                                            "wickets": 10,
+                                            "overs": 90.6
+                                        },
+                                        "inngs2": {
+                                            "inningsId": 4,
+                                            "runs": 254,
+                                            "wickets": 5,
+                                            "overs": 41.3
+                                        }
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "matchType": "Women",
+            "seriesMatches": [
+                {
+                    "seriesAdWrapper": {
+                        "seriesId": 8857,
+                        "seriesName": "South Africa Women tour of Pakistan, 2024",
+                        "matches": [
+                            {
+                                "matchInfo": {
+                                    "matchId": 106417,
+                                    "seriesId": 8857,
+                                    "seriesName": "South Africa Women tour of Pakistan, 2024",
+                                    "matchDesc": "2nd T20I",
+                                    "matchFormat": "T20",
+                                    "startDate": "1726668000000",
+                                    "endDate": "1726680600000",
+                                    "state": "Complete",
+                                    "status": "Pakistan Women won by 13 runs",
+                                    "team1": {
+                                        "teamId": 259,
+                                        "teamName": "Pakistan Women",
+                                        "teamSName": "PAKW",
+                                        "imageId": 172312
+                                    },
+                                    "team2": {
+                                        "teamId": 260,
+                                        "teamName": "South Africa Women",
+                                        "teamSName": "RSAW",
+                                        "imageId": 172313
+                                    },
+                                    "venueInfo": {
+                                        "id": 22,
+                                        "ground": "Multan Cricket Stadium",
+                                        "city": "Multan",
+                                        "timezone": "+05:00",
+                                        "latitude": "30.170782",
+                                        "longitude": "71.524727"
+                                    },
+                                    "currBatTeamId": 259,
+                                    "seriesStartDt": "1726444800000",
+                                    "seriesEndDt": "1726963200000",
+                                    "isTimeAnnounced": true,
+                                    "stateTitle": "PAKW Won"
+                                },
+                                "matchScore": {
+                                    "team1Score": {
+                                        "inngs1": {
+                                            "inningsId": 1,
+                                            "runs": 181,
+                                            "wickets": 4,
+                                            "overs": 19.6
+                                        }
+                                    },
+                                    "team2Score": {
+                                        "inngs1": {
+                                            "inningsId": 2,
+                                            "runs": 168,
+                                            "wickets": 4,
+                                            "overs": 19.6
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "matchInfo": {
+                                    "matchId": 106409,
+                                    "seriesId": 8857,
+                                    "seriesName": "South Africa Women tour of Pakistan, 2024",
+                                    "matchDesc": "1st T20I",
+                                    "matchFormat": "T20",
+                                    "startDate": "1726495200000",
+                                    "endDate": "1726507800000",
+                                    "state": "Complete",
+                                    "status": "South Africa Women won by 10 runs",
+                                    "team1": {
+                                        "teamId": 260,
+                                        "teamName": "South Africa Women",
+                                        "teamSName": "RSAW",
+                                        "imageId": 172313
+                                    },
+                                    "team2": {
+                                        "teamId": 259,
+                                        "teamName": "Pakistan Women",
+                                        "teamSName": "PAKW",
+                                        "imageId": 172312
+                                    },
+                                    "venueInfo": {
+                                        "id": 22,
+                                        "ground": "Multan Cricket Stadium",
+                                        "city": "Multan",
+                                        "timezone": "+05:00",
+                                        "latitude": "30.170782",
+                                        "longitude": "71.524727"
+                                    },
+                                    "currBatTeamId": 260,
+                                    "seriesStartDt": "1726444800000",
+                                    "seriesEndDt": "1726963200000",
+                                    "isTimeAnnounced": true,
+                                    "stateTitle": "RSAW Won"
+                                },
+                                "matchScore": {
+                                    "team1Score": {
+                                        "inngs1": {
+                                            "inningsId": 1,
+                                            "runs": 132,
+                                            "wickets": 4,
+                                            "overs": 19.6
+                                        }
+                                    },
+                                    "team2Score": {
+                                        "inngs1": {
+                                            "inningsId": 2,
+                                            "runs": 122,
+                                            "wickets": 5,
+                                            "overs": 19.6
+                                        }
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "seriesAdWrapper": {
+                        "seriesId": 8889,
+                        "seriesName": "Rwanda Women tour of Kenya, 2024",
+                        "matches": [
+                            {
+                                "matchInfo": {
+                                    "matchId": 106705,
+                                    "seriesId": 8889,
+                                    "seriesName": "Rwanda Women tour of Kenya, 2024",
+                                    "matchDesc": "5th T20I",
+                                    "matchFormat": "T20",
+                                    "startDate": "1726313400000",
+                                    "endDate": "1726326000000",
+                                    "state": "Complete",
+                                    "status": "Rwanda Women won by 18 runs",
+                                    "team1": {
+                                        "teamId": 720,
+                                        "teamName": "Rwanda Women",
+                                        "teamSName": "RWAW",
+                                        "imageId": 248448
+                                    },
+                                    "team2": {
+                                        "teamId": 501,
+                                        "teamName": "Kenya Women",
+                                        "teamSName": "KENW",
+                                        "imageId": 172550
+                                    },
+                                    "venueInfo": {
+                                        "id": 1244,
+                                        "ground": "Sikh Union Club Ground",
+                                        "city": "Nairobi",
+                                        "timezone": "+03:00",
+                                        "latitude": "-1.292066",
+                                        "longitude": "36.821945"
+                                    },
+                                    "currBatTeamId": 720,
+                                    "seriesStartDt": "1725926400000",
+                                    "seriesEndDt": "1726444800000",
+                                    "isTimeAnnounced": true,
+                                    "stateTitle": "RWAW Won"
+                                },
+                                "matchScore": {
+                                    "team1Score": {
+                                        "inngs1": {
+                                            "inningsId": 1,
+                                            "runs": 110,
+                                            "wickets": 10,
+                                            "overs": 19.6
+                                        }
+                                    },
+                                    "team2Score": {
+                                        "inngs1": {
+                                            "inningsId": 2,
+                                            "runs": 92,
+                                            "wickets": 10,
+                                            "overs": 17.2
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "matchInfo": {
+                                    "matchId": 106700,
+                                    "seriesId": 8889,
+                                    "seriesName": "Rwanda Women tour of Kenya, 2024",
+                                    "matchDesc": "4th T20I",
+                                    "matchFormat": "T20",
+                                    "startDate": "1726212600000",
+                                    "endDate": "1726225200000",
+                                    "state": "Complete",
+                                    "status": "Rwanda Women won by 3 wkts",
+                                    "team1": {
+                                        "teamId": 501,
+                                        "teamName": "Kenya Women",
+                                        "teamSName": "KENW",
+                                        "imageId": 172550
+                                    },
+                                    "team2": {
+                                        "teamId": 720,
+                                        "teamName": "Rwanda Women",
+                                        "teamSName": "RWAW",
+                                        "imageId": 248448
+                                    },
+                                    "venueInfo": {
+                                        "id": 1244,
+                                        "ground": "Sikh Union Club Ground",
+                                        "city": "Nairobi",
+                                        "timezone": "+03:00",
+                                        "latitude": "-1.292066",
+                                        "longitude": "36.821945"
+                                    },
+                                    "currBatTeamId": 720,
+                                    "seriesStartDt": "1725926400000",
+                                    "seriesEndDt": "1726444800000",
+                                    "isTimeAnnounced": true,
+                                    "stateTitle": "RWAW Won"
+                                },
+                                "matchScore": {
+                                    "team1Score": {
+                                        "inngs1": {
+                                            "inningsId": 1,
+                                            "runs": 126,
+                                            "wickets": 3,
+                                            "overs": 19.6
+                                        }
+                                    },
+                                    "team2Score": {
+                                        "inngs1": {
+                                            "inningsId": 2,
+                                            "runs": 129,
+                                            "wickets": 7,
+                                            "overs": 18.3
+                                        }
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "seriesAdWrapper": {
+                        "seriesId": 8833,
+                        "seriesName": "Womens Tri-Series in Namibia, 2024",
+                        "matches": [
+                            {
+                                "matchInfo": {
+                                    "matchId": 106089,
+                                    "seriesId": 8833,
+                                    "seriesName": "Womens Tri-Series in Namibia, 2024",
+                                    "matchDesc": "9th Match",
+                                    "matchFormat": "T20",
+                                    "startDate": "1726315200000",
+                                    "endDate": "1726327800000",
+                                    "state": "Complete",
+                                    "status": "Namibia Women won by 24 runs",
+                                    "team1": {
+                                        "teamId": 503,
+                                        "teamName": "Namibia Women",
+                                        "teamSName": "NAMW",
+                                        "imageId": 172552
+                                    },
+                                    "team2": {
+                                        "teamId": 388,
+                                        "teamName": "Zimbabwe Women",
+                                        "teamSName": "ZIMW",
+                                        "imageId": 172441
+                                    },
+                                    "venueInfo": {
+                                        "id": 363,
+                                        "ground": "Wanderers Cricket Ground",
+                                        "city": "Windhoek",
+                                        "timezone": "+02:00",
+                                        "latitude": "-22.591791",
+                                        "longitude": "17.070549"
+                                    },
+                                    "currBatTeamId": 503,
+                                    "seriesStartDt": "1725580800000",
+                                    "seriesEndDt": "1726444800000",
+                                    "isTimeAnnounced": true,
+                                    "stateTitle": "NAMW Won"
+                                },
+                                "matchScore": {
+                                    "team1Score": {
+                                        "inngs1": {
+                                            "inningsId": 1,
+                                            "runs": 127,
+                                            "wickets": 5,
+                                            "overs": 19.6
+                                        }
+                                    },
+                                    "team2Score": {
+                                        "inngs1": {
+                                            "inningsId": 2,
+                                            "runs": 103,
+                                            "wickets": 10,
+                                            "overs": 19.5
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "matchInfo": {
+                                    "matchId": 106081,
+                                    "seriesId": 8833,
+                                    "seriesName": "Womens Tri-Series in Namibia, 2024",
+                                    "matchDesc": "8th Match",
+                                    "matchFormat": "T20",
+                                    "startDate": "1726228800000",
+                                    "endDate": "1726241400000",
+                                    "state": "Complete",
+                                    "status": "United Arab Emirates Women won by 9 wkts",
+                                    "team1": {
+                                        "teamId": 388,
+                                        "teamName": "Zimbabwe Women",
+                                        "teamSName": "ZIMW",
+                                        "imageId": 172441
+                                    },
+                                    "team2": {
+                                        "teamId": 449,
+                                        "teamName": "United Arab Emirates Women",
+                                        "teamSName": "UAEW",
+                                        "imageId": 252369
+                                    },
+                                    "venueInfo": {
+                                        "id": 363,
+                                        "ground": "Wanderers Cricket Ground",
+                                        "city": "Windhoek",
+                                        "timezone": "+02:00",
+                                        "latitude": "-22.591791",
+                                        "longitude": "17.070549"
+                                    },
+                                    "currBatTeamId": 449,
+                                    "seriesStartDt": "1725580800000",
+                                    "seriesEndDt": "1726444800000",
+                                    "isTimeAnnounced": true,
+                                    "stateTitle": "UAEW Won"
+                                },
+                                "matchScore": {
+                                    "team1Score": {
+                                        "inngs1": {
+                                            "inningsId": 1,
+                                            "runs": 128,
+                                            "wickets": 7,
+                                            "overs": 19.6
+                                        }
+                                    },
+                                    "team2Score": {
+                                        "inngs1": {
+                                            "inningsId": 2,
+                                            "runs": 130,
+                                            "wickets": 1,
+                                            "overs": 16.2
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "matchInfo": {
+                                    "matchId": 106073,
+                                    "seriesId": 8833,
+                                    "seriesName": "Womens Tri-Series in Namibia, 2024",
+                                    "matchDesc": "7th Match",
+                                    "matchFormat": "T20",
+                                    "startDate": "1726142400000",
+                                    "endDate": "1726155000000",
+                                    "state": "Complete",
+                                    "status": "United Arab Emirates Women won by 4 wkts",
+                                    "team1": {
+                                        "teamId": 503,
+                                        "teamName": "Namibia Women",
+                                        "teamSName": "NAMW",
+                                        "imageId": 172552
+                                    },
+                                    "team2": {
+                                        "teamId": 449,
+                                        "teamName": "United Arab Emirates Women",
+                                        "teamSName": "UAEW",
+                                        "imageId": 252369
+                                    },
+                                    "venueInfo": {
+                                        "id": 363,
+                                        "ground": "Wanderers Cricket Ground",
+                                        "city": "Windhoek",
+                                        "timezone": "+02:00",
+                                        "latitude": "-22.591791",
+                                        "longitude": "17.070549"
+                                    },
+                                    "currBatTeamId": 449,
+                                    "seriesStartDt": "1725580800000",
+                                    "seriesEndDt": "1726444800000",
+                                    "isTimeAnnounced": true,
+                                    "stateTitle": "UAEW Won"
+                                },
+                                "matchScore": {
+                                    "team1Score": {
+                                        "inngs1": {
+                                            "inningsId": 1,
+                                            "runs": 126,
+                                            "wickets": 7,
+                                            "overs": 19.6
+                                        }
+                                    },
+                                    "team2Score": {
+                                        "inngs1": {
+                                            "inningsId": 2,
+                                            "runs": 129,
+                                            "wickets": 6,
+                                            "overs": 19.2
+                                        }
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "seriesAdWrapper": {
+                        "seriesId": 8908,
+                        "seriesName": "Cyprus Women tour of Serbia, 2024",
+                        "matches": [
+                            {
+                                "matchInfo": {
+                                    "matchId": 106948,
+                                    "seriesId": 8908,
+                                    "seriesName": "Cyprus Women tour of Serbia, 2024",
+                                    "matchDesc": "4th T20I",
+                                    "matchFormat": "T20",
+                                    "startDate": "1726405200000",
+                                    "endDate": "1726417800000",
+                                    "state": "Complete",
+                                    "status": "Match abandoned without a ball bowled",
+                                    "team1": {
+                                        "teamId": 1789,
+                                        "teamName": "Serbia Women",
+                                        "teamSName": "SRBW",
+                                        "imageId": 349600
+                                    },
+                                    "team2": {
+                                        "teamId": 1992,
+                                        "teamName": "Cyprus Women",
+                                        "teamSName": "CYPW",
+                                        "imageId": 502582
+                                    },
+                                    "venueInfo": {
+                                        "id": 950,
+                                        "ground": "Lisicji Jarak Cricket Ground",
+                                        "city": "Belgrade",
+                                        "timezone": "+02:00",
+                                        "latitude": "44.8125",
+                                        "longitude": "20.4612"
+                                    },
+                                    "seriesStartDt": "1726272000000",
+                                    "seriesEndDt": "1726531200000",
+                                    "isTimeAnnounced": true,
+                                    "stateTitle": "Abandon"
+                                }
+                            },
+                            {
+                                "matchInfo": {
+                                    "matchId": 106940,
+                                    "seriesId": 8908,
+                                    "seriesName": "Cyprus Women tour of Serbia, 2024",
+                                    "matchDesc": "3rd T20I",
+                                    "matchFormat": "T20",
+                                    "startDate": "1726390800000",
+                                    "endDate": "1726403400000",
+                                    "state": "Complete",
+                                    "status": "Match abandoned without a ball bowled",
+                                    "team1": {
+                                        "teamId": 1789,
+                                        "teamName": "Serbia Women",
+                                        "teamSName": "SRBW",
+                                        "imageId": 349600
+                                    },
+                                    "team2": {
+                                        "teamId": 1992,
+                                        "teamName": "Cyprus Women",
+                                        "teamSName": "CYPW",
+                                        "imageId": 502582
+                                    },
+                                    "venueInfo": {
+                                        "id": 950,
+                                        "ground": "Lisicji Jarak Cricket Ground",
+                                        "city": "Belgrade",
+                                        "timezone": "+02:00",
+                                        "latitude": "44.8125",
+                                        "longitude": "20.4612"
+                                    },
+                                    "seriesStartDt": "1726272000000",
+                                    "seriesEndDt": "1726531200000",
+                                    "isTimeAnnounced": true,
+                                    "stateTitle": "Abandon"
+                                }
+                            },
+                            {
+                                "matchInfo": {
+                                    "matchId": 106932,
+                                    "seriesId": 8908,
+                                    "seriesName": "Cyprus Women tour of Serbia, 2024",
+                                    "matchDesc": "2nd T20I",
+                                    "matchFormat": "T20",
+                                    "startDate": "1726318800000",
+                                    "endDate": "1726331400000",
+                                    "state": "Complete",
+                                    "status": "Cyprus Women won by 22 runs",
+                                    "team1": {
+                                        "teamId": 1992,
+                                        "teamName": "Cyprus Women",
+                                        "teamSName": "CYPW",
+                                        "imageId": 502582
+                                    },
+                                    "team2": {
+                                        "teamId": 1789,
+                                        "teamName": "Serbia Women",
+                                        "teamSName": "SRBW",
+                                        "imageId": 349600
+                                    },
+                                    "venueInfo": {
+                                        "id": 950,
+                                        "ground": "Lisicji Jarak Cricket Ground",
+                                        "city": "Belgrade",
+                                        "timezone": "+02:00",
+                                        "latitude": "44.8125",
+                                        "longitude": "20.4612"
+                                    },
+                                    "currBatTeamId": 1992,
+                                    "seriesStartDt": "1726272000000",
+                                    "seriesEndDt": "1726531200000",
+                                    "isTimeAnnounced": true,
+                                    "stateTitle": "CYPW Won"
+                                },
+                                "matchScore": {
+                                    "team1Score": {
+                                        "inngs1": {
+                                            "inningsId": 1,
+                                            "runs": 90,
+                                            "wickets": 10,
+                                            "overs": 17.2
+                                        }
+                                    },
+                                    "team2Score": {
+                                        "inngs1": {
+                                            "inningsId": 2,
+                                            "runs": 68,
+                                            "wickets": 6,
+                                            "overs": 19.6
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "matchInfo": {
+                                    "matchId": 106924,
+                                    "seriesId": 8908,
+                                    "seriesName": "Cyprus Women tour of Serbia, 2024",
+                                    "matchDesc": "1st T20I",
+                                    "matchFormat": "T20",
+                                    "startDate": "1726304400000",
+                                    "endDate": "1726317000000",
+                                    "state": "Complete",
+                                    "status": "Cyprus Women won by 7 wkts",
+                                    "team1": {
+                                        "teamId": 1789,
+                                        "teamName": "Serbia Women",
+                                        "teamSName": "SRBW",
+                                        "imageId": 349600
+                                    },
+                                    "team2": {
+                                        "teamId": 1992,
+                                        "teamName": "Cyprus Women",
+                                        "teamSName": "CYPW",
+                                        "imageId": 502582
+                                    },
+                                    "venueInfo": {
+                                        "id": 950,
+                                        "ground": "Lisicji Jarak Cricket Ground",
+                                        "city": "Belgrade",
+                                        "timezone": "+02:00",
+                                        "latitude": "44.8125",
+                                        "longitude": "20.4612"
+                                    },
+                                    "currBatTeamId": 1992,
+                                    "seriesStartDt": "1726272000000",
+                                    "seriesEndDt": "1726531200000",
+                                    "isTimeAnnounced": true,
+                                    "stateTitle": "CYPW Won"
+                                },
+                                "matchScore": {
+                                    "team1Score": {
+                                        "inngs1": {
+                                            "inningsId": 1,
+                                            "runs": 83,
+                                            "wickets": 6,
+                                            "overs": 19.6
+                                        }
+                                    },
+                                    "team2Score": {
+                                        "inngs1": {
+                                            "inningsId": 2,
+                                            "runs": 84,
+                                            "wickets": 3,
+                                            "overs": 17.1
+                                        }
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "seriesAdWrapper": {
+                        "seriesId": 8900,
+                        "seriesName": "Womens T20I Quadrangular Series 2024",
+                        "matches": [
+                            {
+                                "matchInfo": {
+                                    "matchId": 106913,
+                                    "seriesId": 8900,
+                                    "seriesName": "Womens T20I Quadrangular Series 2024",
+                                    "matchDesc": "3rd Place Play-off",
+                                    "matchFormat": "T20",
+                                    "startDate": "1726401600000",
+                                    "endDate": "1726414200000",
+                                    "state": "Complete",
+                                    "status": "Norway Women won by 22 runs",
+                                    "team1": {
+                                        "teamId": 1055,
+                                        "teamName": "Norway Women",
+                                        "teamSName": "NOYW",
+                                        "imageId": 247202
+                                    },
+                                    "team2": {
+                                        "teamId": 1794,
+                                        "teamName": "Luxembourg Women",
+                                        "teamSName": "LUXW",
+                                        "imageId": 349590
+                                    },
+                                    "venueInfo": {
+                                        "id": 1437852,
+                                        "ground": "Koge Cricket Club 2",
+                                        "city": "Koge",
+                                        "timezone": "+02:00",
+                                        "latitude": "55.49913",
+                                        "longitude": "12.19198"
+                                    },
+                                    "currBatTeamId": 1055,
+                                    "seriesStartDt": "1726272000000",
+                                    "seriesEndDt": "1726531200000",
+                                    "isTimeAnnounced": true,
+                                    "stateTitle": "NOYW Won"
+                                },
+                                "matchScore": {
+                                    "team1Score": {
+                                        "inngs1": {
+                                            "inningsId": 1,
+                                            "runs": 116,
+                                            "wickets": 8,
+                                            "overs": 19.6
+                                        }
+                                    },
+                                    "team2Score": {
+                                        "inngs1": {
+                                            "inningsId": 2,
+                                            "runs": 94,
+                                            "wickets": 6,
+                                            "overs": 19.6
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "matchInfo": {
+                                    "matchId": 106921,
+                                    "seriesId": 8900,
+                                    "seriesName": "Womens T20I Quadrangular Series 2024",
+                                    "matchDesc": "Final",
+                                    "matchFormat": "T20",
+                                    "startDate": "1726401600000",
+                                    "endDate": "1726414200000",
+                                    "state": "Complete",
+                                    "status": "Denmark Women won by 6 wkts",
+                                    "team1": {
+                                        "teamId": 775,
+                                        "teamName": "Austria Women",
+                                        "teamSName": "AUTW",
+                                        "imageId": 274436
+                                    },
+                                    "team2": {
+                                        "teamId": 508,
+                                        "teamName": "Denmark Women",
+                                        "teamSName": "DENW",
+                                        "imageId": 172557
+                                    },
+                                    "venueInfo": {
+                                        "id": 1437849,
+                                        "ground": "Koge Cricket Club",
+                                        "city": "Koge",
+                                        "timezone": "+02:00",
+                                        "latitude": "55.46946",
+                                        "longitude": "12.17397"
+                                    },
+                                    "currBatTeamId": 508,
+                                    "seriesStartDt": "1726272000000",
+                                    "seriesEndDt": "1726531200000",
+                                    "isTimeAnnounced": true,
+                                    "stateTitle": "DENW Won"
+                                },
+                                "matchScore": {
+                                    "team1Score": {
+                                        "inngs1": {
+                                            "inningsId": 1,
+                                            "runs": 69,
+                                            "wickets": 10,
+                                            "overs": 18.2
+                                        }
+                                    },
+                                    "team2Score": {
+                                        "inngs1": {
+                                            "inningsId": 2,
+                                            "runs": 70,
+                                            "wickets": 4,
+                                            "overs": 16.3
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "matchInfo": {
+                                    "matchId": 106900,
+                                    "seriesId": 8900,
+                                    "seriesName": "Womens T20I Quadrangular Series 2024",
+                                    "matchDesc": "5th Match",
+                                    "matchFormat": "T20",
+                                    "startDate": "1726386300000",
+                                    "endDate": "1726398900000",
+                                    "state": "Complete",
+                                    "status": "Denmark Women won by 43 runs",
+                                    "team1": {
+                                        "teamId": 508,
+                                        "teamName": "Denmark Women",
+                                        "teamSName": "DENW",
+                                        "imageId": 172557
+                                    },
+                                    "team2": {
+                                        "teamId": 1794,
+                                        "teamName": "Luxembourg Women",
+                                        "teamSName": "LUXW",
+                                        "imageId": 349590
+                                    },
+                                    "venueInfo": {
+                                        "id": 1437849,
+                                        "ground": "Koge Cricket Club",
+                                        "city": "Koge",
+                                        "timezone": "+02:00",
+                                        "latitude": "55.46946",
+                                        "longitude": "12.17397"
+                                    },
+                                    "currBatTeamId": 508,
+                                    "seriesStartDt": "1726272000000",
+                                    "seriesEndDt": "1726531200000",
+                                    "isTimeAnnounced": true,
+                                    "stateTitle": "DENW Won"
+                                },
+                                "matchScore": {
+                                    "team1Score": {
+                                        "inngs1": {
+                                            "inningsId": 1,
+                                            "runs": 93,
+                                            "wickets": 8,
+                                            "overs": 19.6
+                                        }
+                                    },
+                                    "team2Score": {
+                                        "inngs1": {
+                                            "inningsId": 2,
+                                            "runs": 50,
+                                            "wickets": 8,
+                                            "overs": 19.6
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "matchInfo": {
+                                    "matchId": 106905,
+                                    "seriesId": 8900,
+                                    "seriesName": "Womens T20I Quadrangular Series 2024",
+                                    "matchDesc": "6th Match",
+                                    "matchFormat": "T20",
+                                    "startDate": "1726386300000",
+                                    "endDate": "1726398900000",
+                                    "state": "Complete",
+                                    "status": "Austria Women won by 78 runs",
+                                    "team1": {
+                                        "teamId": 775,
+                                        "teamName": "Austria Women",
+                                        "teamSName": "AUTW",
+                                        "imageId": 274436
+                                    },
+                                    "team2": {
+                                        "teamId": 1055,
+                                        "teamName": "Norway Women",
+                                        "teamSName": "NOYW",
+                                        "imageId": 247202
+                                    },
+                                    "venueInfo": {
+                                        "id": 1437852,
+                                        "ground": "Koge Cricket Club 2",
+                                        "city": "Koge",
+                                        "timezone": "+02:00",
+                                        "latitude": "55.49913",
+                                        "longitude": "12.19198"
+                                    },
+                                    "currBatTeamId": 775,
+                                    "seriesStartDt": "1726272000000",
+                                    "seriesEndDt": "1726531200000",
+                                    "isTimeAnnounced": true,
+                                    "stateTitle": "AUTW Won"
+                                },
+                                "matchScore": {
+                                    "team1Score": {
+                                        "inngs1": {
+                                            "inningsId": 1,
+                                            "runs": 160,
+                                            "wickets": 7,
+                                            "overs": 19.6
+                                        }
+                                    },
+                                    "team2Score": {
+                                        "inngs1": {
+                                            "inningsId": 2,
+                                            "runs": 82,
+                                            "wickets": 9,
+                                            "overs": 19.6
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "matchInfo": {
+                                    "matchId": 106892,
+                                    "seriesId": 8900,
+                                    "seriesName": "Womens T20I Quadrangular Series 2024",
+                                    "matchDesc": "4th Match",
+                                    "matchFormat": "T20",
+                                    "startDate": "1726317000000",
+                                    "endDate": "1726329600000",
+                                    "state": "Complete",
+                                    "status": "Norway Women won by 9 runs",
+                                    "team1": {
+                                        "teamId": 1055,
+                                        "teamName": "Norway Women",
+                                        "teamSName": "NOYW",
+                                        "imageId": 247202
+                                    },
+                                    "team2": {
+                                        "teamId": 1794,
+                                        "teamName": "Luxembourg Women",
+                                        "teamSName": "LUXW",
+                                        "imageId": 349590
+                                    },
+                                    "venueInfo": {
+                                        "id": 1437852,
+                                        "ground": "Koge Cricket Club 2",
+                                        "city": "Koge",
+                                        "timezone": "+02:00",
+                                        "latitude": "55.49913",
+                                        "longitude": "12.19198"
+                                    },
+                                    "currBatTeamId": 1055,
+                                    "seriesStartDt": "1726272000000",
+                                    "seriesEndDt": "1726531200000",
+                                    "isTimeAnnounced": true,
+                                    "stateTitle": "NOYW Won"
+                                },
+                                "matchScore": {
+                                    "team1Score": {
+                                        "inngs1": {
+                                            "inningsId": 1,
+                                            "runs": 115,
+                                            "wickets": 8,
+                                            "overs": 19.6
+                                        }
+                                    },
+                                    "team2Score": {
+                                        "inngs1": {
+                                            "inningsId": 2,
+                                            "runs": 106,
+                                            "wickets": 10,
+                                            "overs": 19.5
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "matchInfo": {
+                                    "matchId": 106889,
+                                    "seriesId": 8900,
+                                    "seriesName": "Womens T20I Quadrangular Series 2024",
+                                    "matchDesc": "3rd Match",
+                                    "matchFormat": "T20",
+                                    "startDate": "1726317000000",
+                                    "endDate": "1726329600000",
+                                    "state": "Complete",
+                                    "status": "Denmark Women won by 5 wkts",
+                                    "team1": {
+                                        "teamId": 775,
+                                        "teamName": "Austria Women",
+                                        "teamSName": "AUTW",
+                                        "imageId": 274436
+                                    },
+                                    "team2": {
+                                        "teamId": 508,
+                                        "teamName": "Denmark Women",
+                                        "teamSName": "DENW",
+                                        "imageId": 172557
+                                    },
+                                    "venueInfo": {
+                                        "id": 1437849,
+                                        "ground": "Koge Cricket Club",
+                                        "city": "Koge",
+                                        "timezone": "+02:00",
+                                        "latitude": "55.46946",
+                                        "longitude": "12.17397"
+                                    },
+                                    "currBatTeamId": 508,
+                                    "seriesStartDt": "1726272000000",
+                                    "seriesEndDt": "1726531200000",
+                                    "isTimeAnnounced": true,
+                                    "stateTitle": "DENW Won"
+                                },
+                                "matchScore": {
+                                    "team1Score": {
+                                        "inngs1": {
+                                            "inningsId": 1,
+                                            "runs": 110,
+                                            "wickets": 6,
+                                            "overs": 19.6
+                                        }
+                                    },
+                                    "team2Score": {
+                                        "inngs1": {
+                                            "inningsId": 2,
+                                            "runs": 113,
+                                            "wickets": 5,
+                                            "overs": 19.2
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "matchInfo": {
+                                    "matchId": 106876,
+                                    "seriesId": 8900,
+                                    "seriesName": "Womens T20I Quadrangular Series 2024",
+                                    "matchDesc": "1st Match",
+                                    "matchFormat": "T20",
+                                    "startDate": "1726300800000",
+                                    "endDate": "1726313400000",
+                                    "state": "Complete",
+                                    "status": "Denmark Women won by 42 runs",
+                                    "team1": {
+                                        "teamId": 508,
+                                        "teamName": "Denmark Women",
+                                        "teamSName": "DENW",
+                                        "imageId": 172557
+                                    },
+                                    "team2": {
+                                        "teamId": 1055,
+                                        "teamName": "Norway Women",
+                                        "teamSName": "NOYW",
+                                        "imageId": 247202
+                                    },
+                                    "venueInfo": {
+                                        "id": 1437849,
+                                        "ground": "Koge Cricket Club",
+                                        "city": "Koge",
+                                        "timezone": "+02:00",
+                                        "latitude": "55.46946",
+                                        "longitude": "12.17397"
+                                    },
+                                    "currBatTeamId": 508,
+                                    "seriesStartDt": "1726272000000",
+                                    "seriesEndDt": "1726531200000",
+                                    "isTimeAnnounced": true,
+                                    "stateTitle": "DENW Won"
+                                },
+                                "matchScore": {
+                                    "team1Score": {
+                                        "inngs1": {
+                                            "inningsId": 1,
+                                            "runs": 98,
+                                            "wickets": 6,
+                                            "overs": 19.6
+                                        }
+                                    },
+                                    "team2Score": {
+                                        "inngs1": {
+                                            "inningsId": 2,
+                                            "runs": 56,
+                                            "wickets": 10,
+                                            "overs": 15.5
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "matchInfo": {
+                                    "matchId": 106884,
+                                    "seriesId": 8900,
+                                    "seriesName": "Womens T20I Quadrangular Series 2024",
+                                    "matchDesc": "2nd Match",
+                                    "matchFormat": "T20",
+                                    "startDate": "1726300800000",
+                                    "endDate": "1726313400000",
+                                    "state": "Complete",
+                                    "status": "Austria Women won by 115 runs",
+                                    "team1": {
+                                        "teamId": 775,
+                                        "teamName": "Austria Women",
+                                        "teamSName": "AUTW",
+                                        "imageId": 274436
+                                    },
+                                    "team2": {
+                                        "teamId": 1794,
+                                        "teamName": "Luxembourg Women",
+                                        "teamSName": "LUXW",
+                                        "imageId": 349590
+                                    },
+                                    "venueInfo": {
+                                        "id": 1437852,
+                                        "ground": "Koge Cricket Club 2",
+                                        "city": "Koge",
+                                        "timezone": "+02:00",
+                                        "latitude": "55.49913",
+                                        "longitude": "12.19198"
+                                    },
+                                    "currBatTeamId": 775,
+                                    "seriesStartDt": "1726272000000",
+                                    "seriesEndDt": "1726531200000",
+                                    "isTimeAnnounced": true,
+                                    "stateTitle": "AUTW Won"
+                                },
+                                "matchScore": {
+                                    "team1Score": {
+                                        "inngs1": {
+                                            "inningsId": 1,
+                                            "runs": 179,
+                                            "wickets": 4,
+                                            "overs": 19.6
+                                        }
+                                    },
+                                    "team2Score": {
+                                        "inngs1": {
+                                            "inningsId": 2,
+                                            "runs": 64,
+                                            "wickets": 10,
+                                            "overs": 18.2
+                                        }
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "seriesAdWrapper": {
+                        "seriesId": 8013,
+                        "seriesName": "England Women tour of Ireland 2024",
+                        "matches": [
+                            {
+                                "matchInfo": {
+                                    "matchId": 93963,
+                                    "seriesId": 8013,
+                                    "seriesName": "England Women tour of Ireland 2024",
+                                    "matchDesc": "2nd T20I",
+                                    "matchFormat": "T20",
+                                    "startDate": "1726407900000",
+                                    "endDate": "1726420500000",
+                                    "state": "Complete",
+                                    "status": "Ireland Women won by 5 wkts",
+                                    "team1": {
+                                        "teamId": 99,
+                                        "teamName": "England Women",
+                                        "teamSName": "ENGW",
+                                        "imageId": 172191
+                                    },
+                                    "team2": {
+                                        "teamId": 189,
+                                        "teamName": "Ireland Women",
+                                        "teamSName": "IREW",
+                                        "imageId": 172249
+                                    },
+                                    "venueInfo": {
+                                        "id": 137,
+                                        "ground": "Castle Avenue",
+                                        "city": "Dublin",
+                                        "timezone": "+01:00",
+                                        "latitude": "53.368091",
+                                        "longitude": "-6.207111"
+                                    },
+                                    "currBatTeamId": 189,
+                                    "seriesStartDt": "1725667200000",
+                                    "seriesEndDt": "1726531200000",
+                                    "isTimeAnnounced": true,
+                                    "stateTitle": "IREW Won"
+                                },
+                                "matchScore": {
+                                    "team1Score": {
+                                        "inngs1": {
+                                            "inningsId": 1,
+                                            "runs": 169,
+                                            "wickets": 8,
+                                            "overs": 19.6
+                                        }
+                                    },
+                                    "team2Score": {
+                                        "inngs1": {
+                                            "inningsId": 2,
+                                            "runs": 170,
+                                            "wickets": 5,
+                                            "overs": 19.5
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "matchInfo": {
+                                    "matchId": 93956,
+                                    "seriesId": 8013,
+                                    "seriesName": "England Women tour of Ireland 2024",
+                                    "matchDesc": "1st T20I",
+                                    "matchFormat": "T20",
+                                    "startDate": "1726322400000",
+                                    "endDate": "1726335000000",
+                                    "state": "Complete",
+                                    "status": "England Women won by 67 runs",
+                                    "team1": {
+                                        "teamId": 99,
+                                        "teamName": "England Women",
+                                        "teamSName": "ENGW",
+                                        "imageId": 172191
+                                    },
+                                    "team2": {
+                                        "teamId": 189,
+                                        "teamName": "Ireland Women",
+                                        "teamSName": "IREW",
+                                        "imageId": 172249
+                                    },
+                                    "venueInfo": {
+                                        "id": 137,
+                                        "ground": "Castle Avenue",
+                                        "city": "Dublin",
+                                        "timezone": "+01:00",
+                                        "latitude": "53.368091",
+                                        "longitude": "-6.207111"
+                                    },
+                                    "currBatTeamId": 99,
+                                    "seriesStartDt": "1725667200000",
+                                    "seriesEndDt": "1726531200000",
+                                    "isTimeAnnounced": true,
+                                    "stateTitle": "ENGW Won"
+                                },
+                                "matchScore": {
+                                    "team1Score": {
+                                        "inngs1": {
+                                            "inningsId": 1,
+                                            "runs": 176,
+                                            "wickets": 10,
+                                            "overs": 19.6
+                                        }
+                                    },
+                                    "team2Score": {
+                                        "inngs1": {
+                                            "inningsId": 2,
+                                            "runs": 109,
+                                            "wickets": 10,
+                                            "overs": 18.3
+                                        }
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "filters": {
+        "matchType": [
+            "International",
+            "League",
+            "Domestic",
+            "Women"
+        ]
+    },
+    "appIndex": {
+        "seoTitle": "Live Cricket Score - Scorecard and Match Results",
+        "webURL": "www.cricbuzz.com/live-cricket-scores/"
+    },
+    "responseLastUpdated": "1726731847",
+    "contentFilters": [
+        {
+            "filterId": "fantasy",
+            "filterName": "Fantasy Handbook"
+        }
+    ]
+}

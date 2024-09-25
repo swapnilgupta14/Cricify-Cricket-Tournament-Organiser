@@ -54,7 +54,7 @@ const MatchCards = ({ cricketMatches }) => {
       md:min-w-[50%] md:w-[50%] sm-custom:w-[100%] sm-custom:min-w-[100%] 
       lg:min-w-[325px] lg:w-[325px] 
       min-h-[210px] max-h-[210px] h-[210px]
-      flex flex-col justify-between shadow-black-shadow"
+      flex flex-col justify-between"
     >
       <div className="flex justify-between h-5 w-full p-3 text-sm bg-gray-200 rounded-t-2xl">
         <div className="font-medium text-xs text-textSecondary">
