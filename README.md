@@ -28,7 +28,7 @@ This is a **Tournament Organizer App** built with **React**, **Vite**, and **Tai
 To clone the repository, run the following command:
 
 ```bash
-git clone https://github.com/yourusername/tournament-organizer-app.git
+git clone https://github.com/swapnilgupta14/tournament-organizer-app.git
 cd tournament-organizer-app
 ```
 
@@ -103,22 +103,51 @@ yarn preview
 ## Project Structure
 
 ```
-tournament-organizer-app/
-│
-├── public/                     # Public assets
-├── src/
-│   ├── assets/                 # Static images, icons, etc.
-│   ├── components/             # Reusable components (buttons, forms, cards, etc.)
-│   ├── pages/                  # Page components (Dashboard, Tournament, ScheduledTournament)
-│   ├── styles/                 # Tailwind customizations and global styles
-│   ├── App.jsx                 # Main App component
-│   ├── index.jsx               # Entry point of the app
-│   └── router.jsx              # React Router configuration
-│
-├── package.json                # Project dependencies and scripts
-├── tailwind.config.js          # Tailwind CSS configuration
-├── vite.config.js              # Vite configuration
-├── README.md                   # This file
+Cricket-Organiser
+├─ src
+│  ├─ App.jsx
+│  ├─ components
+│  │  ├─ common
+│  │  │  ├─ Breadcrumbs.jsx
+│  │  │  ├─ Dropdown.jsx
+│  │  │  └─ SearchBar.jsx
+│  │  ├─ MatchCards.jsx
+│  │  ├─ Navbar.jsx
+│  │  ├─ TournamentCards.jsx
+│  │  └─ validation.jsx
+│  ├─ main.jsx
+│  ├─ pages
+│  │  ├─ common
+│  │  │  ├─ newsFeed.jsx
+│  │  │  ├─ NotFound404.jsx
+│  │  │  ├─ Rankings.jsx
+│  │  │  └─ validation.jsx
+│  │  ├─ dashboard.jsx
+│  │  ├─ scheduledTournaments
+│  │  │  └─ [id].jsx
+│  │  ├─ seriesCoverage.jsx
+│  │  └─ tournament.jsx
+│  ├─ redux
+│  │  ├─ reducers
+│  │  │  └─ tournamentSlice.jsx
+│  │  └─ store.js
+│  ├─ styles
+│  │  ├─ global.scss
+│  │  ├─ tailwind.scss
+│  │  └─ _variables.scss
+│  ├─ types
+│  │  └─ react-date-range.d.ts
+│  └─ utils
+│     ├─ API
+│     │  ├─ axiosInstance.jsx
+│     │  └─ fetch.jsx
+│     ├─ DummyData
+│     │  ├─ cricketMatches.jsx
+│     │  └─ seriesCoverage.json
+│     └─ icons
+│        └─ iconSVGs.jsx
+├─ tailwind.config.js
+└─ vite.config.js
 └── ...
 ```
 
